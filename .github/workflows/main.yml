@@ -1,0 +1,25 @@
+name: Orientation Frontend Deployment
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  Run-Build-Website:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Actions Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Installing Node.js
+        run: npm install
+
+      - name: Deploy Website
+        run: npm run deploy
