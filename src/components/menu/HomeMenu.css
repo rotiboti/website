@@ -6,6 +6,6 @@
     flex-direction: column;
 }
 
-.laval-menu-wrapper{
+.home-menu-wrapper {
     width: min(var(--max-content-width), 90%);
 }

@@ -5,6 +5,6 @@
     background-color: var(--rotiboti-primary-color);
 }
 
-.laval-navbar-wrapper{
+.laval-navbar-wrapper {
     width: min(var(--max-content-width), 90%);
 }
