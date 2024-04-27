@@ -1,4 +1,14 @@
+:root {
+    --rotiboti-min-width: 300px;
+    --max-content-width: 1200px;
+
+    --rotiboti-primary-color: #84c1ff;
+
+
+}
+
 .App {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 

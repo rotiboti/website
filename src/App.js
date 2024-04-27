@@ -1,9 +1,12 @@
 import './App.css';
+import HomeNavbar from "./components/navbar/HomeNavbar";
+import LavalMenu from "./components/menu/LavalMenu";
 
 function App() {
     return (
         <div className="App">
-            <h1>Roti Boti</h1>
+            <HomeNavbar/>
+            <LavalMenu/>
         </div>
     );
 }
