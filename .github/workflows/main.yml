@@ -21,5 +21,8 @@ jobs:
       - name: Installing Node.js
         run: npm install
 
+      - name: Installing Node.js
+        run: git config --global github.token {{secret.WEBSITE_GITHUB_TOKEN}}
+
       - name: Deploy Website
         run: npm run deploy
