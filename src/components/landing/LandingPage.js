@@ -2,7 +2,7 @@
 import React from "react";
 import './LandingPage.css';
 import HomeNavbar from "../navbar/HomeNavbar";
-import LavalMenu from "../menu/LavalMenu";
+import HomeMenu from "../menu/HomeMenu";
 
 
 const LandingPage = () => {
@@ -10,7 +10,7 @@ const LandingPage = () => {
     return (
         <div className="LandingPage">
             <HomeNavbar/>
-            <LavalMenu/>
+            <HomeMenu/>
         </div>
     )
 };

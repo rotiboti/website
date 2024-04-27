@@ -1,10 +1,11 @@
-.home-navbar-container {
+.home-menu-container {
+    flex: 1;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: var(--rotiboti-primary-color);
 }
 
-.laval-navbar-wrapper{
+.laval-menu-wrapper{
     width: min(var(--max-content-width), 90%);
 }
