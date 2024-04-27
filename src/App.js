@@ -1,13 +1,17 @@
 import './App.css';
-import HomeNavbar from "./components/navbar/HomeNavbar";
-import LavalMenu from "./components/menu/LavalMenu";
+import {BrowserRouter as Router, Navigate, Route, Routes} from 'react-router-dom';
+import LandingPage from "./components/landing/LandingPage";
 
 function App() {
     return (
-        <div className="App">
-            <HomeNavbar/>
-            <LavalMenu/>
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<LandingPage/>}/>
+
+                {/* Add the wildcard route for unmatched paths */}
+                <Route path="*" element={<Navigate to="/" replace/>}/>
+            </Routes>
+        </Router>
     );
 }
 

@@ -1,5 +1,3 @@
 .HomeNavbar {
-    width: 100%;
     background-color: var(--rotiboti-primary-color);
-    display: flex;
 }
