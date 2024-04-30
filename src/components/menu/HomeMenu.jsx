@@ -6,7 +6,7 @@ import LavalMenu from "./laval/LavalMenu";
 const HomeMenu = () => {
     return (
         <div className="home-menu-container">
-            <h1>MENU</h1>
+            <h1>LAVAL MENU</h1>
             <div className="home-menu-wrapper">
                 <LavalMenu/>
             </div>
