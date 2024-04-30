@@ -6,7 +6,7 @@ import ProductMenu from "../product/ProductMenu";
 const CategoryMenu = ({title, categoryData}) => {
     return (
         <div className="category-menu-container" id={title.replace(/\s+/g, '-').toLowerCase()}>
-            <h1>{title}</h1>
+            <h2>{title}</h2>
             <div className="category-menu-grid">
                 {categoryData.map((product, index) => (
                     <ProductMenu key={index} productData={product}/>

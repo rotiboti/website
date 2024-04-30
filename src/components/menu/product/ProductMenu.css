@@ -4,7 +4,7 @@
 
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 5px bisque;
+    box-shadow: 0 0 15px bisque;
     cursor: pointer;
 }
 
@@ -22,4 +22,15 @@
     font-weight: 500;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+
+.product-new-banner {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    background-color: var(--rotiboti-primary-color);
 }

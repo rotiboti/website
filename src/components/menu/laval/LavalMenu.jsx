@@ -72,19 +72,7 @@ const LavalMenu = () => {
 
     return (
         <div className="laval-menu-container">
-            <div className="category-titles">
-                <h1>MENU</h1>
-                <ul>
-                    {menuData && Object.keys(menuData).map((key, index) => (
-                        <li key={index} onClick={() => handleTitleClick(key)}>{key}</li>
-                    ))}
-                </ul>
-            </div>
-
-            <div className="category-sections">
-                <>
-                    <div style={{backgroundColor: "#DEB887FF", height: "60px"}}/>
-                </>
+            <div className="laval-category-sections">
                 {menuData && Object.keys(menuData).map((key, index) => (
                     <CategoryMenu key={index} title={key} categoryData={menuData[key]}/>
                 ))}

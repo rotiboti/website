@@ -5,6 +5,7 @@ import './ProductMenu.css';
 const ProductMenu = ({productData}) => {
     return (
         <div className="product-menu-container">
+            {productData?.is_new && <div className="product-new-banner">New</div>}
             <img src={productData.image_url} alt={productData.title}/>
             <p>{productData.title}</p>
         </div>
