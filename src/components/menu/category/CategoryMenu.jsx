@@ -3,9 +3,9 @@ import React from 'react';
 import './CategoryMenu.css';
 import ProductMenu from "../product/ProductMenu";
 
-const CategoryMenu = ({ title, categoryData }) => {
+const CategoryMenu = ({title, categoryData}) => {
     return (
-        <div className="category-menu-container">
+        <div className="category-menu-container" id={title.replace(/\s+/g, '-').toLowerCase()}>
             <h1>{title}</h1>
             <div className="category-menu-grid">
                 {categoryData.map((product, index) => (

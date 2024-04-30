@@ -1,6 +1,5 @@
 // LavalMenu.jsx
-import React, { useState, useEffect } from 'react';
-import fetchLavalMenuData from "../../../scripts/firebaseMenu";
+import React, {useEffect, useState} from 'react';
 import './LavalMenu.css';
 import CategoryMenu from "../category/CategoryMenu";
 
@@ -64,11 +63,32 @@ const LavalMenu = () => {
         })
     }, []);
 
+    const handleTitleClick = (category) => {
+        const element = document.getElementById(category.replace(/\s+/g, '-').toLowerCase());
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <div className="laval-menu-container">
-            {menuData && Object.keys(menuData).map((key, index) => (
-                <CategoryMenu key={index} title={key} categoryData={menuData[key]} />
-            ))}
+            <div className="category-titles">
+                <h1>MENU</h1>
+                <ul>
+                    {menuData && Object.keys(menuData).map((key, index) => (
+                        <li key={index} onClick={() => handleTitleClick(key)}>{key}</li>
+                    ))}
+                </ul>
+            </div>
+
+            <div className="category-sections">
+                <>
+                    <div style={{backgroundColor: "#DEB887FF", height: "60px"}}/>
+                </>
+                {menuData && Object.keys(menuData).map((key, index) => (
+                    <CategoryMenu key={index} title={key} categoryData={menuData[key]}/>
+                ))}
+            </div>
         </div>
     );
 }
