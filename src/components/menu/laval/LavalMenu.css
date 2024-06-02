@@ -10,3 +10,9 @@
 .laval-category-sections {
     flex: 1;
 }
+
+@media (max-width: 900px) {
+    .sidebar {
+        display: none;
+    }
+}

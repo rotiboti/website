@@ -2,6 +2,7 @@
 import React, {useEffect, useState} from 'react';
 import './LavalMenu.css';
 import CategoryMenu from "../category/CategoryMenu";
+import Sidebar from "../../sidebar/Sidebar";
 
 const LavalMenu = () => {
     const [menuData, setMenuData] = useState({});
@@ -66,15 +67,16 @@ const LavalMenu = () => {
     const handleTitleClick = (category) => {
         const element = document.getElementById(category.replace(/\s+/g, '-').toLowerCase());
         if (element) {
-            element.scrollIntoView({behavior: "smooth"});
+            element.scrollIntoView({ behavior: 'smooth' });
         }
     };
 
     return (
         <div className="laval-menu-container">
+            <Sidebar menuData={menuData} handleTitleClick={handleTitleClick} />
             <div className="laval-category-sections">
                 {menuData && Object.keys(menuData).map((key, index) => (
-                    <CategoryMenu key={index} title={key} categoryData={menuData[key]}/>
+                    <CategoryMenu key={index} title={key} categoryData={menuData[key]} />
                 ))}
             </div>
         </div>
