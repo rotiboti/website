@@ -24,6 +24,9 @@
     margin-right: 10px;
 }
 
+.product-details-wrapper {
+    display: flex;
+}
 
 .product-new-banner {
     position: absolute;

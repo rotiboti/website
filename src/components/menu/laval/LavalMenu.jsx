@@ -66,7 +66,7 @@ const LavalMenu = () => {
     const handleTitleClick = (category) => {
         const element = document.getElementById(category.replace(/\s+/g, '-').toLowerCase());
         if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
+            element.scrollIntoView({behavior: "smooth"});
         }
     };
 
