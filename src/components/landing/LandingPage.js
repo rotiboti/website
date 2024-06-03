@@ -3,6 +3,7 @@ import React from "react";
 import './LandingPage.css';
 import HomeNavbar from "../navbar/HomeNavbar";
 import HomeMenu from "../menu/HomeMenu";
+import HomeFooter from "../footer/HomeFooter";
 
 
 const LandingPage = () => {
@@ -11,6 +12,7 @@ const LandingPage = () => {
         <div className="LandingPage">
             <HomeNavbar/>
             <HomeMenu/>
+            <HomeFooter/>
         </div>
     )
 };

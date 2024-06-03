@@ -1,0 +1,18 @@
+.home-footer-container {
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+}
+
+.laval-footer-wrapper {
+    width: min(var(--max-content-width), 90%);
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}

@@ -1,7 +1,7 @@
 // LavalMenu.jsx
 import React, {useEffect, useState} from 'react';
 import CategoryMenu from "../category/CategoryMenu";
-import Sidebar from "../../sidebar/Sidebar";
+import Sidebar from "../sidebar/Sidebar";
 import './LavalMenu.css';
 
 const LavalMenu = () => {
@@ -15,11 +15,15 @@ const LavalMenu = () => {
             "KENTUCKY FRIED": [
                 {
                     "title": "Crispy Onion Ring Sandwich Box",
-                    "image_url": "https://images.ctfassets.net/a2mgcrjjefyo/1kxwQ3h1Du9NphK0pLyeM0/be0f6dd0d6adefe56f3c19f95b7050d9/Crispy_Onion_Ring_FCCS_Big_Crunch_Sandwich_Box_Meal.png?h=600&w=800&fit=fill&fm=webp"
+                    "image_url": "https://images.ctfassets.net/a2mgcrjjefyo/1kxwQ3h1Du9NphK0pLyeM0/be0f6dd0d6adefe56f3c19f95b7050d9/Crispy_Onion_Ring_FCCS_Big_Crunch_Sandwich_Box_Meal.png?h=600&w=800&fit=fill&fm=webp",
+                    "price": "20CAD",
+                    "is_new": true,
                 },
                 {
                     "title": "Crispy Onion Ring Sandwich Com",
-                    "image_url": "https://images.ctfassets.net/a2mgcrjjefyo/1kxwQ3h1Du9NphK0pLyeM0/be0f6dd0d6adefe56f3c19f95b7050d9/Crispy_Onion_Ring_FCCS_Big_Crunch_Sandwich_Box_Meal.png?h=600&w=800&fit=fill&fm=webp"
+                    "image_url": "https://images.ctfassets.net/a2mgcrjjefyo/1kxwQ3h1Du9NphK0pLyeM0/be0f6dd0d6adefe56f3c19f95b7050d9/Crispy_Onion_Ring_FCCS_Big_Crunch_Sandwich_Box_Meal.png?h=600&w=800&fit=fill&fm=webp",
+                    "price": "20CAD",
+                    "is_new": true,
                 },
                 {
                     "title": "Crispy Onion Ring Twister ALC",
@@ -112,6 +116,7 @@ const LavalMenu = () => {
                 selectedIndex={selectedIndex}
             />
             <div className="laval-category-sections">
+                <h1 className="home-menu-heading" >BEST INDIAN & PAKISTANI CUISINE </h1>
                 {menuData && Object.keys(menuData).map((key, index) => (
                     <CategoryMenu key={index} title={key} categoryData={menuData[key]}/>
                 ))}
