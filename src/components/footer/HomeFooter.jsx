@@ -7,8 +7,8 @@ const HomeFooter = () => {
     return (
         <div className="home-footer-container">
             <div className="laval-footer-wrapper">
-                <h1>ROTI BOTI</h1>
-                <p>Copyright © Roti Boti.</p>
+                <h2>HALAL DESI RESTAURANT - ROTI BOTI</h2>
+                <p>Copyright © 2024</p>
             </div>
         </div>
     );
