@@ -7,6 +7,7 @@ import './LavalMenu.css';
 const LavalMenu = () => {
     const [menuData, setMenuData] = useState({});
     const [selectedIndex, setSelectedIndex] = useState(0);
+    const [showScrollTopBack, setShowScrollTopBack] = useState(false);
 
     useEffect(() => {
         // fetchLavalMenuData().then(data => {setMenuData(data);});
@@ -76,6 +77,11 @@ const LavalMenu = () => {
                     setSelectedIndex(i);
                 }
             }
+            if (window.scrollY > 200) {
+                setShowScrollTopBack(true);
+            } else {
+                setShowScrollTopBack(false);
+            }
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -94,6 +100,10 @@ const LavalMenu = () => {
         }
     };
 
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
     return (
         <div className="laval-menu-container">
             <Sidebar
@@ -106,6 +116,11 @@ const LavalMenu = () => {
                     <CategoryMenu key={index} title={key} categoryData={menuData[key]}/>
                 ))}
             </div>
+            {showScrollTopBack && (
+                <div className="scroll-to-top" onClick={scrollToTop}>
+                    Top 👆
+                </div>
+            )}
         </div>
     );
 }
