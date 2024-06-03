@@ -2,12 +2,16 @@
 import React from 'react';
 import './Sidebar.css';
 
-const Sidebar = ({ menuData, handleTitleClick }) => {
+const Sidebar = ({menuData, handleTitleClick, selectedIndex}) => {
     return (
         <div className="sidebar">
             <h3>Offerings</h3>
             {menuData && Object.keys(menuData).map((key, index) => (
-                <div key={index} className="sidebar-item" onClick={() => handleTitleClick(key)}>
+                <div
+                    key={index}
+                    className={`sidebar-item ${index === selectedIndex ? 'selected' : ''}`}
+                    onClick={() => handleTitleClick(index)}
+                >
                     {key}
                 </div>
             ))}

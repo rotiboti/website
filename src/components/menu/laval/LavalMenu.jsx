@@ -1,11 +1,12 @@
 // LavalMenu.jsx
 import React, {useEffect, useState} from 'react';
-import './LavalMenu.css';
 import CategoryMenu from "../category/CategoryMenu";
 import Sidebar from "../../sidebar/Sidebar";
+import './LavalMenu.css';
 
 const LavalMenu = () => {
     const [menuData, setMenuData] = useState({});
+    const [selectedIndex, setSelectedIndex] = useState(0);
 
     useEffect(() => {
         // fetchLavalMenuData().then(data => {setMenuData(data);});
@@ -64,19 +65,45 @@ const LavalMenu = () => {
         })
     }, []);
 
-    const handleTitleClick = (category) => {
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const sections = Object.keys(menuData);
+            for (let i = 0; i < sections.length; i++) {
+                const section = sections[i];
+                const element = document.getElementById(section.replace(/\s+/g, '-').toLowerCase());
+                if (element && window.scrollY >= element.offsetTop) {
+                    setSelectedIndex(i);
+                }
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [menuData]);
+
+    const handleTitleClick = (index) => {
+        setSelectedIndex(index);
+        const category = Object.keys(menuData)[index];
         const element = document.getElementById(category.replace(/\s+/g, '-').toLowerCase());
         if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
+            element.scrollIntoView({behavior: 'smooth'});
         }
     };
 
     return (
         <div className="laval-menu-container">
-            <Sidebar menuData={menuData} handleTitleClick={handleTitleClick} />
+            <Sidebar
+                menuData={menuData}
+                handleTitleClick={handleTitleClick}
+                selectedIndex={selectedIndex}
+            />
             <div className="laval-category-sections">
                 {menuData && Object.keys(menuData).map((key, index) => (
-                    <CategoryMenu key={index} title={key} categoryData={menuData[key]} />
+                    <CategoryMenu key={index} title={key} categoryData={menuData[key]}/>
                 ))}
             </div>
         </div>

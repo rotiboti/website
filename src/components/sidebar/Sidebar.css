@@ -12,7 +12,7 @@
     cursor: pointer;
 }
 
-.sidebar-item:hover {
+.sidebar-item:hover, .sidebar-item.selected {
     background-color: var(--rotiboti-primary-color);
     border-radius: 10px;
     font-weight: 500;
