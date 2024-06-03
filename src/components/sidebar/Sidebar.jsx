@@ -5,7 +5,7 @@ import './Sidebar.css';
 const Sidebar = ({menuData, handleTitleClick, selectedIndex}) => {
     return (
         <div className="sidebar">
-            <h3>Offerings</h3>
+            <h3>OFFERINGS</h3>
             {menuData && Object.keys(menuData).map((key, index) => (
                 <div
                     key={index}

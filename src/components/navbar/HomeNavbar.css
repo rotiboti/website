@@ -5,8 +5,11 @@
 
     border-bottom: 1px solid var(--rotiboti-primary-color);
     border-top: 1px solid var(--rotiboti-primary-color);
+
+    background-color: #000000;
 }
 
 .laval-navbar-wrapper {
     width: min(var(--max-content-width), 90%);
+    color: white;
 }

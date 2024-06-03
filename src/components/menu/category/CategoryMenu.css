@@ -11,5 +11,7 @@
 
 
 .category-menu-heading{
-    /*background-color: burlywood;*/
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--rotiboti-primary-color);
 }
