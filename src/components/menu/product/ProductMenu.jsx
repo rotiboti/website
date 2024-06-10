@@ -1,6 +1,7 @@
 // ProductMenu.jsx
 import React from 'react';
 import './ProductMenu.css';
+import {languageTranslate} from "../../../util/utils";
 
 const ProductMenu = ({productData}) => {
     return (
@@ -9,7 +10,7 @@ const ProductMenu = ({productData}) => {
             {productData?.image_url && <img src={productData.image_url} alt={productData.title}/>}
 
             <div className={"product-details-wrapper"}>
-                <p style={{flex: "1"}}>{productData.title.split('/')[0]}</p>
+                <p style={{flex: "1"}}>{languageTranslate(productData.title)}</p>
                 {productData?.price && <p style={{color: "#909090"}}>${productData?.price}</p>}
             </div>
         </div>

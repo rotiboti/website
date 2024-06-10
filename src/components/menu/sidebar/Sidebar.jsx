@@ -1,6 +1,7 @@
 // Sidebar.jsx
 import React from 'react';
 import './Sidebar.css';
+import {languageTranslate} from "../../../util/utils";
 
 const Sidebar = ({menuData, handleTitleClick, selectedIndex}) => {
 
@@ -8,14 +9,14 @@ const Sidebar = ({menuData, handleTitleClick, selectedIndex}) => {
 
     return (
         <div className="sidebar">
-            <h3>{menuHeading.split('/')[0]}</h3>
+            <h3>{languageTranslate(menuHeading)}</h3>
             {menuData && Object.keys(menuData).map((key, index) => (
                 <div
                     key={index}
                     className={`sidebar-item ${index === selectedIndex ? 'selected' : ''}`}
                     onClick={() => handleTitleClick(index)}
                 >
-                    {key.split('/')[0]}
+                    {languageTranslate(key)}
                 </div>
             ))}
         </div>

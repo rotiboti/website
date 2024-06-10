@@ -19,10 +19,16 @@ export const setSelectedLanguage = (language) => {
     }
 };
 
-export const isLanguageSelected = (language) => {
+export function languageTranslate(inputString) {
     const selectedLanguage = getSelectedLanguage();
-    return selectedLanguage === language;
-};
+    const parts = inputString.split(' / ');
+
+    if (selectedLanguage === 'fr') {
+        return parts[0];
+    } else {
+        return parts[parts.length - 1];
+    }
+}
 
 
 const imageUrls = {

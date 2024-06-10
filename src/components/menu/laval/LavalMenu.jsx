@@ -4,6 +4,7 @@ import CategoryMenu from "../category/CategoryMenu";
 import {readJsonContent} from "../../../util/jsonContent";
 import Sidebar from "../sidebar/Sidebar";
 import './LavalMenu.css';
+import {languageTranslate} from "../../../util/utils";
 
 const lavalMenuJson = await readJsonContent("lavalMenu");
 
@@ -64,7 +65,7 @@ const LavalMenu = () => {
                 selectedIndex={selectedIndex}
             />
             <div className="laval-category-sections">
-                <h1 className="home-menu-heading" > {headingMenu.split('/')[0]} </h1>
+                <h1 className="home-menu-heading" > {languageTranslate(headingMenu)} </h1>
                 {menuData && Object.keys(menuData).map((key, index) => (
                     <CategoryMenu key={index} title={key} categoryData={menuData[key]}/>
                 ))}
