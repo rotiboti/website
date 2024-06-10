@@ -10,7 +10,7 @@ function App() {
                 <Route path="/website" element={<LandingPage/>}/>
 
                 {/* Add the wildcard route for unmatched paths */}
-                <Route path="*" element={<Navigate to="/" replace/>}/>
+                {/*<Route path="*" element={<Navigate to="/" replace/>}/>*/}
             </Routes>
         </Router>
     );

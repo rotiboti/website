@@ -9,8 +9,8 @@ const ProductMenu = ({productData}) => {
             {productData?.image_url && <img src={productData.image_url} alt={productData.title}/>}
 
             <div className={"product-details-wrapper"}>
-                <p style={{flex: "1"}}>{productData.title}</p>
-                {productData?.price && <p style={{color: "#909090"}}>{productData?.price}</p>}
+                <p style={{flex: "1"}}>{productData.title.split('/')[0]}</p>
+                {productData?.price && <p style={{color: "#909090"}}>${productData?.price}</p>}
             </div>
         </div>
     );

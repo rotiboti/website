@@ -16,3 +16,31 @@
     justify-content: space-between;
     margin: 0 20px;
 }
+
+@media (max-width: 600px) {
+    .laval-footer-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.laval-footer-language{
+    display: flex;
+    gap: 10px;
+}
+
+.laval-footer-language button {
+    padding: 8px 16px;
+    border: 2px solid burlywood;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.laval-footer-language button.selected {
+    background-color: burlywood;
+    color: black;
+    font-weight: bold;
+}

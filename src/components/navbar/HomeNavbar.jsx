@@ -12,10 +12,10 @@ const HomeNavbar = () => {
         <div className="home-navbar-container">
             <div className="laval-navbar-wrapper">
                 <div className="laval-navbar-logo">
-                    <img src={logo512ImageUrl} width="75px" height="75px" alt="Halal"/>
+                    <img src={logo512ImageUrl} width="75px" height="75px" alt=""/>
                     <h1>ROTI BOTI</h1>
                 </div>
-                <img src={halalImageUrl} width="50px" height="50px" alt="Halal"/>
+                <img src={halalImageUrl} width="70px" height="70px" alt="Halal"/>
             </div>
         </div>
     );
