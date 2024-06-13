@@ -9,7 +9,7 @@ const CategoryMenu = ({title, categoryData}) => {
         <div className="category-menu-container" id={title.replace(/\s+/g, '-').toLowerCase()}>
             <h2 className="category-menu-heading">{languageTranslate(title)}</h2>
             <div className="category-menu-grid">
-                {categoryData.map((product, index) => (
+                {categoryData?.products.map((product, index) => (
                     <ProductMenu key={index} productData={product}/>
                 ))}
             </div>
