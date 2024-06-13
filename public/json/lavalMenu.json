@@ -457,18 +457,11 @@
       "image_url": "",
       "price": 0,
       "is_new": null
-    },
-    {
-      "title": "",
-      "description": "",
-      "image_url": "",
-      "price": 0,
-      "is_new": null
     }
   ],
   "VÉGÉTARIEN / VEGETARIAN":[
     {
-      "title": "Mélanger les légumes/Mix Vegetable",
+      "title": "Mélanger les légumes / Mix Vegetable",
       "description": "Légumes variés cuisinés aux épices orientales. / Mixed vegetables cooked with Oriental spices.",
       "image_url": "",
       "price": 11.99,
@@ -797,6 +790,52 @@
       "description": "",
       "image_url": "",
       "price": 2.99,
+      "is_new": null
+    }
+  ],
+  "MENU SPÉCIAL / MENU SPECIAL": [
+    {
+      "title": "Menu Spécial #1 / Menu Special #1",
+      "description": "Pour 2 personnes / For 2 Person",
+      "contents":[
+        "Oignon Bhaji ou Samosa (2) / Onion Bhaji or Samosa (2)",
+        "Poulet au beurre / Butter chicken",
+        "Cari d'agneau / Lamb curry",
+        "Riz Basmiti (2) / Basmati rice (2)",
+        "Pains naan (2) / Naan breads (2)",
+        "Salade et Raita / Salad and Raita"
+      ],
+      "image_url": "",
+      "price": 39.99,
+      "is_new": null
+    },
+    {
+      "title": "Menu Spécial #2 / Menu Special #2",
+      "description": "Pour 2 personnes / For 2 Person",
+      "contents":[
+        "Pakora Vegetarienne or Samosa (2) / Vegetarian Pakora or Samosa (2)",
+        "Agneau ou boeuf korma / Lamb or beef korma",
+        "Poulet desosse Tikka / Boneless Chicken Tikka",
+        "Biryani boeuf ou poulet / Beef or Chicken Biryani",
+        "Pains naan (2) / Naan breads (2)",
+        "Salade et Raita / Salad and Raita"
+      ],
+      "image_url": "",
+      "price": 39.99,
+      "is_new": null
+    },
+    {
+      "title": "Menu Spécial #3 / Menu Special #3",
+      "description": "Pour 2 personnes / For 2 Person",
+      "contents":[
+        "Papadam et  oignons Bhaji ou Samosa / Papadam and Onion Bhaji or Samosa",
+        "Poulet Korma / Chicken Korma",
+        "Cavettes Biryani / Shrimp Biryani",
+        "Pains naan (2) / Naan breads (2)",
+        "Salade et Raita / Salad and Raita"
+      ],
+      "image_url": "",
+      "price": 41.99,
       "is_new": null
     }
   ]

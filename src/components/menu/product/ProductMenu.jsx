@@ -13,6 +13,17 @@ const ProductMenu = ({productData}) => {
                 <p style={{flex: "1"}}>{languageTranslate(productData.title)}</p>
                 {productData?.price && <p style={{color: "#909090"}}>${productData?.price}</p>}
             </div>
+
+            <div className={"product-contents"}>
+                {productData?.description && <p>{languageTranslate(productData?.description)}</p>}
+                {productData?.contents && (
+                    <ul>
+                        {productData.contents.map((item, index) => (
+                            <li key={index}>{languageTranslate(item)}</li>
+                        ))}
+                    </ul>
+                )}
+            </div>
         </div>
     );
 }

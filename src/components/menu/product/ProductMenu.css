@@ -49,3 +49,10 @@
     border-bottom-left-radius: 5px;
     background-color: var(--rotiboti-primary-color);
 }
+
+.product-contents{
+    & p {
+        margin: 0 10px 10px 10px;
+        font-weight: normal;
+    }
+}
