@@ -414,6 +414,31 @@
   },
   "COMBO PLATS PRINCIPAUX / MAIN DISHES COMBO": {
     "description": "Les Combos sont servis avec du riz, du pain naan et un choix de viande. / The Combos are served with rice, naan bread, and choice of meat.",
+    "details": {
+      "description": "Choix de Viande / Choice of Meat",
+      "choices": [
+        {
+          "title": "Poulet (Désossé) / Chicken (Boneless)",
+          "price": 18.99,
+          "is_new": null
+        },
+        {
+          "title": "Boeuf (Désossé) / Beef (Boneless)",
+          "price": 19.99,
+          "is_new": null
+        },
+        {
+          "title": "Agneau (Désossé) / Lamb (Boneless)",
+          "price": 19.99,
+          "is_new": null
+        },
+        {
+          "title": "Crevettes royales / King Prawns",
+          "price": 23.99,
+          "is_new": null
+        }
+      ]
+    },
     "products": [
       {
         "title": "Combo Poulet au Beurre / Butter Chicken",
@@ -543,7 +568,7 @@
       },
       {
         "title": "Achar Gosh",
-        "description": "Cuit avec un mélange de cornichons, d'herbes et d'épices / Cooked with mixed pickle and herbs and spices",
+        "description": "Cuit avec un mélange de cornichons, d'herbes et d'épices / Cooked with mixed pickles, herbs and spices",
         "image_url": "",
         "price": null,
         "is_new": null
