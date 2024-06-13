@@ -9,9 +9,21 @@
     grid-template-columns: repeat(auto-fill, minmax(var(--notify-list-size), 1fr));
 }
 
+.category-details-grid {
+    display: grid;
+    --notify-list-size: calc(1.7 * var(--rotiboti-min-width));
+    grid-template-columns: repeat(auto-fill, minmax(var(--notify-list-size), 1fr));
+}
+
 
 .category-menu-heading{
     font-size: 2em;
     padding-bottom: 10px;
     border-bottom: 2px solid var(--rotiboti-primary-color);
+}
+
+.menu-details-headings {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #9a7644;
 }

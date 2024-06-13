@@ -437,7 +437,8 @@
           "price": 23.99,
           "is_new": null
         }
-      ]
+      ],
+      "preparation": "Choix de Préparation / Choice of Preparation"
     },
     "products": [
       {

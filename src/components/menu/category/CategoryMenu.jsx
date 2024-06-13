@@ -3,7 +3,6 @@ import React from 'react';
 import './CategoryMenu.css';
 import ProductMenu from "../product/ProductMenu";
 import {languageTranslate} from "../../../util/utils";
-import MenuDetails from "../product/details/MenuDetails";
 
 const CategoryMenu = ({title, categoryData}) => {
     return (
@@ -11,7 +10,20 @@ const CategoryMenu = ({title, categoryData}) => {
             <h2 className="category-menu-heading">{languageTranslate(title)}</h2>
             {categoryData?.description &&
                 (
-                    <p style={{fontWeight: "bold"}}>{languageTranslate(categoryData?.description)}</p>
+                    <p style={{fontWeight: "bold" }}>{languageTranslate(categoryData?.description)}</p>
+                )
+            }
+            {categoryData?.details &&
+                (
+                    <>
+                        <h3 className="menu-details-headings">{languageTranslate(categoryData?.details?.description)}</h3>
+                        <div className="category-details-grid">
+                            {categoryData?.details?.choices.map((product, index) => (
+                                <ProductMenu key={index} productData={product}/>
+                            ))}
+                        </div>
+                        <h3 className="menu-details-headings">{languageTranslate(categoryData?.details?.preparation)}</h3>
+                    </>
                 )
             }
 
