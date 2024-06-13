@@ -413,68 +413,139 @@
     ]
   },
   "COMBO PLATS PRINCIPAUX / MAIN DISHES COMBO": {
+    "description": "Les Combos sont servis avec du riz, du pain naan et un choix de viande. / The Combos are served with rice, naan bread, and choice of meat.",
     "products": [
       {
-        "title": "",
-        "description": "",
+        "title": "Combo Poulet au Beurre / Butter Chicken",
+        "description": "Une sauce riche à base de tomates et de crème / A rich sauce made with tomatoes and cream",
         "image_url": "",
-        "price": 0,
+        "price": null,
         "is_new": null
       },
       {
-        "title": "",
-        "description": "",
+        "title": "Tikka Masala",
+        "description": "Tandoori tikka cuisiné avec une sauce masala maison / Tandoori tikka cooked with home style masala sauce",
         "image_url": "",
-        "price": 0,
+        "price": null,
         "is_new": null
       },
       {
-        "title": "",
-        "description": "",
+        "title": "Karahi",
+        "description": "Sauce à base de gingembre, d'ail et de coriandre fraîche / Sauce made with ginger, garlic, and fresh coriander",
         "image_url": "",
-        "price": 0,
+        "price": null,
         "is_new": null
       },
       {
-        "title": "",
-        "description": "",
+        "title": "Jalfrazi",
+        "description": "Sauce riche à base de tomates, oignons et poivrons / Rich sauce made with tomatoes, onions and bell peppers",
         "image_url": "",
-        "price": 0,
+        "price": null,
         "is_new": null
       },
       {
-        "title": "",
-        "description": "",
+        "title": "Vindaloo",
+        "description": "Un plat exotique de la province de Goa, à base de vinaigre et de piments rouges / An exotic dish from the province of Goa, made with vinegar and red chilies",
         "image_url": "",
-        "price": 0,
+        "price": null,
         "is_new": null
       },
       {
-        "title": "",
-        "description": "",
+        "title": "Chilli Masal",
+        "description": "À base de piments verts, d'oignons, de poivrons verts et de coriandre fraîche / Made with green chilies, onions, green peppers, and fresh coriander",
         "image_url": "",
-        "price": 0,
+        "price": null,
         "is_new": null
       },
       {
-        "title": "",
-        "description": "",
+        "title": "Madras",
+        "description": "Un plat épicé à base de tomates de Chennai en Inde / A spicy tomato-based dish from Chennai India",
         "image_url": "",
-        "price": 0,
+        "price": null,
         "is_new": null
       },
       {
-        "title": "",
-        "description": "",
+        "title": "Curry",
+        "description": "Sauce à base de tomates et d'oignons / Sauce made with tomatoes and onions",
         "image_url": "",
-        "price": 0,
+        "price": null,
         "is_new": null
       },
       {
-        "title": "",
-        "description": "",
+        "title": "Spécial Mangue / Mango Special",
+        "description": "Riche sauce à la mangue aux épices et herbes / Rich mango sauce with spices and herbs",
         "image_url": "",
-        "price": 0,
+        "price": null,
+        "is_new": null
+      },
+      {
+        "title": "Gingembre / Ginger",
+        "description": "Fait avec de l'ail, du yaourt et une généreuse portion de gingembre / Made with garlic, yogurt, and a generous portion of ginger",
+        "image_url": "",
+        "price": null,
+        "is_new": null
+      },
+      {
+        "title": "Saag Gosh",
+        "description": "À base d'épinards frais et d'herbes / Made with fresh spinach and herbs",
+        "image_url": "",
+        "price": null,
+        "is_new": null
+      },
+      {
+        "title": "Korma",
+        "description": "Sauce douce et crémeuse à base de yaourt et d'herbes / Mild and creamy sauce made with yogurt and herbs",
+        "image_url": "",
+        "price": null,
+        "is_new": null
+      },
+      {
+        "title": "Dupiaza",
+        "description": "Sauce douce et crémeuse à base de yaourt et d'herbes / Mild and creamy sauce made with yogurt and herbs",
+        "image_url": "",
+        "price": null,
+        "is_new": null
+      },
+      {
+        "title": "Rogan Josh",
+        "description": "Plat exotique du Cachemire à base de piments et de fleurs séchées / Exotic Kashmir dish made with chilies and dried flowers",
+        "image_url": "",
+        "price": null,
+        "is_new": null
+      },
+      {
+        "title": "Daal Gosh",
+        "description": "Fait avec de la sauce et des lentilles / Made with gravy sauce and lentils",
+        "image_url": "",
+        "price": null,
+        "is_new": null
+      },
+      {
+        "title": "Bhuna",
+        "description": "Préparé avec des poivrons, des oignons, des champignons et des tomates / Prepared with peppers, onions, mushrooms, and tomatoes",
+        "image_url": "",
+        "price": null,
+        "is_new": null
+      },
+      {
+        "title": "Bhindi Gosh",
+        "description": "Gombo cuit aux herbes et épices / Cooked okra with herbs and spices",
+        "image_url": "",
+        "price": null,
+        "is_new": null
+      },
+      {
+        "title": "Kebab Masata",
+        "description": "Cuit avec du poulet haché ou du kebab de bœuf haché et des herbes et épices / Cooked with ground chicken or ground beef kebab and herbs and spices",
+        "image_url": "",
+        "price": null,
+        "is_new": null
+      },
+      {
+        "title": "Achar Gosh",
+        "description": "Cuit avec un mélange de cornichons, d'herbes et d'épices / Cooked with mixed pickle and herbs and spices",
+        "image_url": "",
+        "price": null,
         "is_new": null
       }
     ]
