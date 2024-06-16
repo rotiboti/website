@@ -9,6 +9,7 @@
 .order-partner-wrapper {
     width: min(var(--max-content-width), 90%);
     margin-top: 20px;
+    border-top: 8px solid var(--rotiboti-primary-color);
 }
 
 .order-partner-heading {
