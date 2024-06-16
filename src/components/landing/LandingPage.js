@@ -13,7 +13,7 @@ const LandingPage = () => {
         <div className="LandingPage">
             <HomeNavbar/>
             <HomeMenu/>
-            {/*<OrderPartner/>*/}
+            <OrderPartner/>
             <HomeFooter/>
         </div>
     )
