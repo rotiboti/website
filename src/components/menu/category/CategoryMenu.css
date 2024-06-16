@@ -15,6 +15,13 @@
     grid-template-columns: repeat(auto-fill, minmax(var(--notify-list-size), 1fr));
 }
 
+@media (max-width: 600px) {
+    .category-details-grid {
+        --notify-list-size: calc(1 * var(--rotiboti-min-width));
+        grid-template-columns: repeat(auto-fill, minmax(var(--notify-list-size), 1fr));
+    }
+}
+
 
 .category-menu-heading{
     font-size: 2em;

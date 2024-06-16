@@ -34,6 +34,9 @@ export function languageTranslate(inputString) {
 const imageUrls = {
     halal: "https://rotibotilaval.com/img/halal-logo-halal-badge-round-stamp-vector-logo-halal-sign-design_526569-735-fotor-20230706201841.png",
     logo512: "https://rotiboti.github.io/website/logo512.png",
+    skip: "https://rotibotilaval.com/img/IMG_2139.PNG",
+    uber: "https://rotibotilaval.com/img/IMG_2142.PNG",
+    doordash: "https://rotibotilaval.com/img/IMG_2141.PNG",
     // Add more image URLs here as needed
 };
 
