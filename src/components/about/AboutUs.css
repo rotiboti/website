@@ -32,6 +32,8 @@
 
 .tariq-about-us {
     width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px bisque;
 }
 
 .about-us-intro h2, strong{
