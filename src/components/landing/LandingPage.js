@@ -6,6 +6,7 @@ import HomeMenu from "../menu/HomeMenu";
 import HomeFooter from "../footer/HomeFooter";
 import OrderPartner from "../order/OrderPartner";
 import ContactUs from "../contact/ContactUs";
+import AboutUs from "../about/AboutUs";
 
 
 const LandingPage = () => {
@@ -16,6 +17,7 @@ const LandingPage = () => {
             <HomeMenu/>
             <OrderPartner/>
             <ContactUs/>
+            <AboutUs/>
             <HomeFooter/>
         </div>
     )

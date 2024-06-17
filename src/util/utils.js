@@ -52,6 +52,7 @@ const imageUrls = {
     skip: `${baseUrl}skip.png`,
     uber: `${baseUrl}uber.png`,
     doordash: `${baseUrl}doordash.png`,
+    tariq: `${baseUrl}tariq.png`,
     // Add more image URLs here as needed
 };
 
