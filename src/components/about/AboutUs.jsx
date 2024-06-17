@@ -15,7 +15,9 @@ const AboutUs = () => {
                 <div className="about-us-details">
                     <div className="about-us-intro">
                         <section id="about">
-                            <p><strong>Roti Boti</strong>, {languageTranslate("un restaurant gastronomique proposant une cuisine indienne et pakistanaise authentique, donnant vie aux goûts vibrants de l'Inde et du Pakistan dans notre communauté. / a fine dining restaurant that features authentic Indian and Pakistani cuisine, bringing the vibrant tastes of India and Pakistan to life in our community.")}</p>
+                            <p><strong>Roti
+                                Boti</strong>, {languageTranslate("un restaurant gastronomique proposant une cuisine indienne et pakistanaise authentique, donnant vie aux goûts vibrants de l'Inde et du Pakistan dans notre communauté. / a fine dining restaurant that features authentic Indian and Pakistani cuisine, bringing the vibrant tastes of India and Pakistan to life in our community.")}
+                            </p>
 
                             <h2>{languageTranslate("Notre Histoire / Our Story")}</h2>
                             <p>{languageTranslate("Fondée en 2013, Roti Boti est située sur le Boul Cure Labelle, au coeur de Laval, Québec. Nous nous engageons à servir une cuisine fantastique à la communauté lavalloise, en offrant une expérience culinaire unique et inoubliable. / Established in 2013, Roti Boti is located on Boul Cure Labelle, in the heart of Laval, Quebec. We are dedicated to serving fantastic food to the Laval community, offering a unique and unforgettable dining experience.")}</p>
@@ -29,13 +31,16 @@ const AboutUs = () => {
                             <h2>{languageTranslate("À votre porte / At Your Doorstep")}</h2>
                             <p>{languageTranslate("Offrant désormais la livraison via Skip The Dishes et Uber Eats, vous pouvez découvrir les saveurs riches et diverses de l'Inde et du Pakistan dans le confort de votre maison. Que vous dîniez sur place ou que vous commandiez au restaurant, Roti Boti s'engage à offrir une expérience culinaire exceptionnelle. / Now offering delivery through Skip The Dishes and Uber Eats, you can experience the rich and diverse flavors of India and Pakistan from the comfort of your home. Whether you are dining in or ordering out, Roti Boti is committed to providing an exceptional culinary experience.")}</p>
 
+                            <h2>{languageTranslate("Service de restauration / Catering Services")}</h2>
+                            <p>{languageTranslate("Nous proposons également des services de traiteur, proposant de la nourriture en vrac pour vos événements spéciaux et vos rassemblements. Nos options de restauration sont parfaites pour les fêtes, les événements d'entreprise et bien plus encore. Laissez-nous apporter les saveurs du Roti Boti à votre prochain événement et rendez-le vraiment mémorable. / We also provide catering services, offering food in bulk for your special events and gatherings. Our catering options are perfect for parties, corporate events, and more. Let us bring the flavors of Roti Boti to your next event and make it truly memorable.")}</p>
+
                             <h2>{languageTranslate("Commandez maintenant / Order Now")}</h2>
                             <p>{languageTranslate("Venez découvrir pourquoi nous sommes le choix privilégié pour la cuisine indienne et pakistanaise à Laval. Visitez-nous aujourd'hui et goûtez la différence que fait l'authenticité. / Come and discover why we are the preferred choice for Indian and Pakistani cuisine in Laval. Visit us today and taste the difference that authenticity makes.")}</p>
 
                         </section>
                     </div>
-                    <div style={{ marginLeft: "10px" }}>
-                        <img className={"tariq-about-us"} src={tariqImageUrl} alt="Chef Tariq preparing a dish" />
+                    <div style={{marginLeft: "10px"}}>
+                        <img className={"tariq-about-us"} src={tariqImageUrl} alt="Chef Tariq preparing a dish"/>
                     </div>
                 </div>
             </div>
