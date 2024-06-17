@@ -31,14 +31,30 @@ export function languageTranslate(inputString) {
 }
 
 
+// utils.js
+
+// Function to get the base URL based on the current hostname
+function getBaseUrl() {
+    if (window.location.hostname === 'localhost') {
+        return 'http://localhost:3000/website/';
+    } else if (window.location.hostname === 'rotiboti.github.io') {
+        return 'https://rotiboti.github.io/website/';
+    } else {
+        return 'https://rotiboti.github.io/website/';
+    }
+}
+
+const baseUrl = getBaseUrl();
+
 const imageUrls = {
-    halal: "https://rotibotilaval.com/img/halal-logo-halal-badge-round-stamp-vector-logo-halal-sign-design_526569-735-fotor-20230706201841.png",
-    logo512: "https://rotiboti.github.io/website/logo512.png",
-    skip: "https://rotibotilaval.com/img/IMG_2139.PNG",
-    uber: "https://rotibotilaval.com/img/IMG_2142.PNG",
-    doordash: "https://rotibotilaval.com/img/IMG_2141.PNG",
+    halal: `${baseUrl}halal.png`,
+    logo512: `${baseUrl}logo512.png`,
+    skip: `${baseUrl}skip.png`,
+    uber: `${baseUrl}uber.png`,
+    doordash: `${baseUrl}doordash.png`,
     // Add more image URLs here as needed
 };
+
 
 const getImageUrl = (imageName) => {
     return imageUrls[imageName] || '';
