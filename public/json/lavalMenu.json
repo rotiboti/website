@@ -109,49 +109,49 @@
       {
         "title": "Balti au poulet / Chicken Balti",
         "description": "",
-        "image_url": "",
+        "image_url": "chicken-balti.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Balti au Bœuf / Beef Balti",
         "description": "",
-        "image_url": "",
+        "image_url": "beef-balti.png",
         "price": 14.99,
         "is_new": null
       },
       {
         "title": "Balti au l'agneau / Lamb Balti",
         "description": "",
-        "image_url": "",
+        "image_url": "lamb-balti.png",
         "price": 14.99,
         "is_new": null
       },
       {
         "title": "Balti aux crevettes géantes / King Prawn Balti",
         "description": "",
-        "image_url": "",
+        "image_url": "king-prawn-balti.png",
         "price": 21.99,
         "is_new": null
       },
       {
         "title": "Balti Wicked",
         "description": "Tikka au poulet cuit avec jus de citron frais, chili vert, ail, et sauce aux tomates. / Chicken tikka cooked with fresh lemon juice, green chili, garlic, and tomato sauce.",
-        "image_url": "",
+        "image_url": "balti-wicked.png",
         "price": 15.99,
         "is_new": null
       },
       {
         "title": "Balti Shish Kebab",
         "description": "Seekh kebab (bœuf) cuit au four d'argile avec notre sauce spéciale. / Seekh kebab (beef) cooked in the tandoor with our special sauce.",
-        "image_url": "",
+        "image_url": "balti-shish-kebab.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Balti spécial du chef / Chef's Special Balti",
         "description": "Crevettes géantes et tikka au poulet cuit avec jus de citron frais, oignons, et chili vert. / King prawns and chicken tikka cooked with fresh lemon juice, onions, and green chili.",
-        "image_url": "",
+        "image_url": "chefs-special-balti.png",
         "price": 18.99,
         "is_new": null
       }
@@ -162,49 +162,49 @@
       {
         "title": "Poisson lahori (Bassa) / Lahori Fish (Bassa)",
         "description": "Poisson entier désossé, sans peau cuit au four d’argile. / Whole fish, boneless, and skinless cooked in tandoor.",
-        "image_url": "",
+        "image_url": "lahori-fish-bassa.png",
         "price": 14.99,
         "is_new": null
       },
       {
         "title": "Cari au poisson (Bassa) / Fish Curry (Bassa)",
         "description": "Bassa frais cuit avec fines herbes, épices, et feuilles de can. / Fresh bassa cooked with herbs, spices, and curry leaves.",
-        "image_url": "",
+        "image_url": "fish-curry-bassa.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Poisson Jalfrezi / Fish Jalfrazi",
         "description": "",
-        "image_url": "",
+        "image_url": "fish-jalfrazi.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Poisson et riz / Fish and Rice",
         "description": "",
-        "image_url": "",
+        "image_url": "fish-and-rice.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Fish'n-chips / Fish N Chips",
         "description": "",
-        "image_url": "",
+        "image_url": "fish-n-chips.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Poisson chili / Chili Fish",
         "description": "",
-        "image_url": "",
+        "image_url": "chili-fish.png",
         "price": 16.99,
         "is_new": null
       },
       {
         "title": "King crevettes chili / King Prawn Chilli",
         "description": "",
-        "image_url": "",
+        "image_url": "king-prawn-chilli.png",
         "price": 22.99,
         "is_new": null
       }
@@ -215,49 +215,49 @@
       {
         "title": "Riz frit au poulet / Chicken Fried Rice",
         "description": "",
-        "image_url": "",
+        "image_url": "chicken-fried-rice.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Poulet chili / Chicken Chili",
         "description": "",
-        "image_url": "",
+        "image_url": "chicken-chili.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Riz frit au légumes / Vegetable Fried Rice",
         "description": "",
-        "image_url": "",
+        "image_url": "vegetable-fried-rice.png",
         "price": 12.99,
         "is_new": null
       },
       {
         "title": "Riz frit avec crevettes / Shrimp Fried Rice",
         "description": "",
-        "image_url": "",
+        "image_url": "shrimp-fried-rice.png",
         "price": 17.99,
         "is_new": null
       },
       {
         "title": "Riz frit avec poisson / Fish Fried Rice",
         "description": "",
-        "image_url": "",
+        "image_url": "fish-fried-rice.png",
         "price": 14.99,
         "is_new": null
       },
       {
         "title": "Riz frit avec bœuf / Beef Fried Rice",
         "description": "",
-        "image_url": "",
+        "image_url": "beef-fried-rice.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Riz sauté à l'agneau / Lamb Fried Rice",
         "description": "",
-        "image_url": "",
+        "image_url": "lamb-fried-rice.png",
         "price": 14.99,
         "is_new": null
       }
@@ -307,14 +307,14 @@
       {
         "title": "Sandwich rouleau seekh kebba / Seekh Kebab Roll Sadnwich",
         "description": "",
-        "image_url": "",
+        "image_url": "seekh-kebab-roll-sadnwich.png",
         "price": 7.99,
         "is_new": null
       },
       {
         "title": "Sandwich rouleau au poulet tikka / Chicken Tikka Roll Sandwich",
         "description": "",
-        "image_url": "",
+        "image_url": "chicken-tikka-roll-sandwich.png",
         "price": 7.99,
         "is_new": null
       }
@@ -325,14 +325,14 @@
       {
         "title": "Nihari",
         "description": "Boeuf cuit avec gingembre, garam, masala, yogourt, et beurre. / Beef cooked with ginger, garam masala, yogurt, and butter.",
-        "image_url": "",
+        "image_url": "nihari.png",
         "price": 12.99,
         "is_new": null
       },
       {
         "title": "Haleem",
         "description": "Ragoût de bœuf mijoté à point avec lentilles, épices, et lines herbes. / Slowly simmered beef stew with lentils, herbs, and spices.",
-        "image_url": "",
+        "image_url": "haleem.png",
         "price": 12.99,
         "is_new": null
       }
@@ -343,42 +343,42 @@
       {
         "title": "Poulet Tandoori (Entier) / Chicken Tandoori (Whole)",
         "description": "Poulet mariné au yaourt et aux épices et cuit au four tandoor. / Chicken marinated in yogurt and spices and cooked in a tandoor oven",
-        "image_url": "",
+        "image_url": "chicken-tandoori-whole.png",
         "price": 22.99,
         "is_new": null
       },
       {
         "title": "Poulet Tandoori (Demi) / Chicken Tandoori (Half)",
         "description": "Poulet mariné au yaourt et aux épices et cuit au four tandoor. / Chicken marinated in yogurt and spices and cooked in a tandoor oven",
-        "image_url": "",
+        "image_url": "chicken-tandoori-half.png",
         "price": 12.99,
         "is_new": null
       },
       {
         "title": "Poulet Tandoori (Cuisse) / Chicken Tandoori (Leg)",
         "description": "Poulet mariné au yaourt et aux épices et cuit au four tandoor. / Chicken marinated in yogurt and spices and cooked in a tandoor oven",
-        "image_url": "",
+        "image_url": "chicken-tandoori-leg.png",
         "price": 7.99,
         "is_new": null
       },
       {
         "title": "Poulet Tandoori (Poitrine) / Chicken Tandoori (Breast)",
         "description": "Poulet mariné au yaourt et aux épices et cuit au four tandoor. / Chicken marinated in yogurt and spices and cooked in a tandoor oven",
-        "image_url": "",
+        "image_url": "chicken-tandoori-breast.png",
         "price": 8.99,
         "is_new": null
       },
       {
         "title": "Tikka au poulet / Tandoori Chicken Tikka",
         "description": "Poulet désossé, mariné au yogourt, et épices, cuit au four tandoor. / Boneless chicken marinated in yogurt and spices, cooked in a tandoor oven.",
-        "image_url": "",
+        "image_url": "tandoori-chicken-tikka.png",
         "price": 16.99,
         "is_new": null
       },
       {
         "title": "Tandoori au crevettes géantes / King Prawn Tandoori",
         "description": "Crevettes géantes et seekh kbab cuits au four tandoor. / King prawns marinated in yogurt and spices and cooked in a tandoor oven.",
-        "image_url": "",
+        "image_url": "king-prawn-tandoori.png",
         "price": 25.99,
         "is_new": null
       },
@@ -399,14 +399,14 @@
       {
         "title": "Seekh Kebab (Bœuf) / Seekh Kebab (Beef)",
         "description": "Bœuf assaisonné avec des épices et fines herbes, cuit au four tandoor. / Beef seasoned with herbs and spices, cooked in a tandoor oven.",
-        "image_url": "",
+        "image_url": "seekh-kebab-beef.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Seekh Kebab (Poulet) / Seekh Kebab (Chicken)",
         "description": "Poulet assaisonné avec des épices et fines herbes, cuit au four tandoor. / Chicken seasoned with herbs and spices, cooked in a tandoor oven.",
-        "image_url": "",
+        "image_url": "seekh-kebab-chicken.png",
         "price": 11.99,
         "is_new": null
       }
