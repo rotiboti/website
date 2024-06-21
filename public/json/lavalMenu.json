@@ -444,133 +444,133 @@
       {
         "title": "Combo Poulet au Beurre / Butter Chicken",
         "description": "Une sauce riche à base de tomates et de crème / A rich sauce made with tomatoes and cream",
-        "image_url": "",
+        "image_url": "butter-chicken.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Tikka Masala",
         "description": "Tandoori tikka cuisiné avec une sauce masala maison / Tandoori tikka cooked with home style masala sauce",
-        "image_url": "",
+        "image_url": "tikka-masala.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Karahi",
         "description": "Sauce à base de gingembre, d'ail et de coriandre fraîche / Sauce made with ginger, garlic, and fresh coriander",
-        "image_url": "",
+        "image_url": "karahi.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Jalfrazi",
         "description": "Sauce riche à base de tomates, oignons et poivrons / Rich sauce made with tomatoes, onions and bell peppers",
-        "image_url": "",
+        "image_url": "jalfrazi.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Vindaloo",
         "description": "Un plat exotique de la province de Goa, à base de vinaigre et de piments rouges / An exotic dish from the province of Goa, made with vinegar and red chilies",
-        "image_url": "",
+        "image_url": "vindaloo.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Chilli Masal",
         "description": "À base de piments verts, d'oignons, de poivrons verts et de coriandre fraîche / Made with green chilies, onions, green peppers, and fresh coriander",
-        "image_url": "",
+        "image_url": "chilli-masal.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Madras",
         "description": "Un plat épicé à base de tomates de Chennai en Inde / A spicy tomato-based dish from Chennai India",
-        "image_url": "",
+        "image_url": "madras.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Curry",
         "description": "Sauce à base de tomates et d'oignons / Sauce made with tomatoes and onions",
-        "image_url": "",
+        "image_url": "curry.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Spécial Mangue / Mango Special",
         "description": "Riche sauce à la mangue aux épices et herbes / Rich mango sauce with spices and herbs",
-        "image_url": "",
+        "image_url": "mango-special.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Gingembre / Ginger",
         "description": "Fait avec de l'ail, du yaourt et une généreuse portion de gingembre / Made with garlic, yogurt, and a generous portion of ginger",
-        "image_url": "",
+        "image_url": "ginger.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Saag Gosh",
         "description": "À base d'épinards frais et d'herbes / Made with fresh spinach and herbs",
-        "image_url": "",
+        "image_url": "saag-gosh.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Korma",
         "description": "Sauce douce et crémeuse à base de yaourt et d'herbes / Mild and creamy sauce made with yogurt and herbs",
-        "image_url": "",
+        "image_url": "korma.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Dupiaza",
         "description": "Sauce douce et crémeuse à base de yaourt et d'herbes / Mild and creamy sauce made with yogurt and herbs",
-        "image_url": "",
+        "image_url": "dupiaza.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Rogan Josh",
         "description": "Plat exotique du Cachemire à base de piments et de fleurs séchées / Exotic Kashmir dish made with chilies and dried flowers",
-        "image_url": "",
+        "image_url": "rogan-josh.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Daal Gosh",
         "description": "Fait avec de la sauce et des lentilles / Made with gravy sauce and lentils",
-        "image_url": "",
+        "image_url": "daal-gosh.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Bhuna",
         "description": "Préparé avec des poivrons, des oignons, des champignons et des tomates / Prepared with peppers, onions, mushrooms, and tomatoes",
-        "image_url": "",
+        "image_url": "bhuna.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Bhindi Gosh",
         "description": "Gombo cuit aux herbes et épices / Cooked okra with herbs and spices",
-        "image_url": "",
+        "image_url": "bhindi-gosh.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Kebab Masata",
         "description": "Cuit avec du poulet haché ou du kebab de bœuf haché et des herbes et épices / Cooked with ground chicken or ground beef kebab and herbs and spices",
-        "image_url": "",
+        "image_url": "kebab-masata.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Achar Gosh",
         "description": "Cuit avec un mélange de cornichons, d'herbes et d'épices / Cooked with mixed pickles, herbs and spices",
-        "image_url": "",
+        "image_url": "achar-gosh.png",
         "price": null,
         "is_new": null
       }
@@ -588,98 +588,98 @@
       {
         "title": "Channa",
         "description": "Pois chiches cuits avec beurre, gingembre, all herbes, et épices. / Chickpeas cooked with butter, ginger, garlic, herbs, and spices.",
-        "image_url": "",
+        "image_url": "channa.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Daal Mash",
         "description": "Lentilles noires cuites avec beurre gingembre, al, herbes, et épices. / Black lentils cooked with butter, ginger, garlic, herbs, and spices.",
-        "image_url": "",
+        "image_url": "daal-mash.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Daal Makhani",
         "description": "Lentilles noires et haricots rouges cuits avec tomates, gingembre, cumin, et oignons. / Black lentils and red kidney beans cooked with tomatoes, ginger, cumin, and onions.",
-        "image_url": "",
+        "image_url": "daal-makhani.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Matar Paneer",
         "description": "Pois et fromage dans une sauce légèrement épicée. / Peas and cheese cooked in a mildly spiced sauce.",
-        "image_url": "",
+        "image_url": "matar-paneer.png",
         "price": 12.99,
         "is_new": null
       },
       {
         "title": "Baingan Bharta",
         "description": "Aubergine cuite avec tomates, oignons, ail, gingembre, et épices. / Eggplant cooked with tomatoes, onions, garlic, ginger, and spices.",
-        "image_url": "",
+        "image_url": "baingan-bharta.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Bhindi",
         "description": "Gombo préparé avec épices et fines herbes. / Okra cooked with herbs and spices.",
-        "image_url": "",
+        "image_url": "bhindi.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Aloo Gobi",
         "description": "Pommes de terre et chou-fleur préparés avec épices et fines herbes. / Potatoes and cauliflower cooked with herbs and spices.",
-        "image_url": "",
+        "image_url": "aloo-gobi.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Aloo Matar",
         "description": "Pommes de terre et pois préparés avec épices et fines herbes. / Potatoes and peas cooked with herbs and spices.",
-        "image_url": "",
+        "image_url": "aloo-matar.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Aloo Palak",
         "description": "Pommes de terre et épinards préparés avec épices et fines herbes. / Potatoes and spinach cooked with herbs and spices.",
-        "image_url": "",
+        "image_url": "aloo-palak.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Jalfrezi végétarien / Vegetarian Jalfrezi",
         "description": "Legumes assortis dans une sauce riche à base de tomates, oignons, et poivrons. / Mixed vegetables in a rich sauce made with tomatoes, onions, and bell peppers.",
-        "image_url": "",
+        "image_url": "vegetarian-jalfrezi.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Dum Aloo",
         "description": "Met exotique de la région de Kashmir à base de pommes de terre, épices, feuilles de laurier, et cannelle. / Exotic Kashmir dish made with potatoes, spices, bay leaves, and cinnamon.",
-        "image_url": "",
+        "image_url": "dum-aloo.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Nauratan Korma",
         "description": "Légumes frais du jardin cuits dans une sauce à base de yogourt. / Garden fresh vegetables cooked in a yogurt sauce.",
-        "image_url": "",
+        "image_url": "nauratan-korma.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Shahi Paneer",
         "description": "Fromage blanc avec sauce crémeuse. / Cottage cheese in a light creamy sauce.",
-        "image_url": "",
+        "image_url": "shahi-paneer.png",
         "price": 12.99,
         "is_new": null
       },
       {
         "title": "Palak Paneer",
         "description": "Épinards et fromage préparés avec beurre, gingembre, ail, épices, et fines herbes. / Spinach and cheese cooked in butter with ginger, garlic, herbs, and spices.",
-        "image_url": "",
+        "image_url": "palak-paneer.png",
         "price": 12.99,
         "is_new": null
       }
