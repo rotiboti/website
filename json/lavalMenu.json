@@ -3,56 +3,56 @@
     "products": [
       {
         "title": "Soupe aux lentilles / Daal Soup",
-        "image_url": "",
+        "image_url": "daal-soup.png",
         "price": 4.99,
         "is_new": null
       },
       {
         "title": "Samosas aux Léqumes / Vegetable samosas",
         "description": "2 chaussbns frits avec pommes de terres, pois et fines herbes. / 2 fried dumpling stuffed with potatoes, peas & fine herbs",
-        "image_url": "",
+        "image_url": "vegetable-samosas.png",
         "price": 3.99,
         "is_new": null
       },
       {
         "title": "Samosa aux légumes chaat / Channa Samosa Chaat",
         "description": "Samosas aux légumes avec pois chiches, yogourt, légumes, et épices. / Vegetable samosas with chickpeas, yogurt, vegetables, and spices",
-        "image_url": "",
+        "image_url": "channa-samosa-chaat.png",
         "price": 6.99,
         "is_new": null
       },
       {
         "title": "Bhaji à l'oignon / Onion Bhaji",
         "description": "Oignons enrobés de farine de gram, frits avec fines herbes. / Onions dipped in gram flour, fried with fine herbs.",
-        "image_url": "",
+        "image_url": "onion-bhaji.png",
         "price": 4.99,
         "is_new": null
       },
       {
         "title": "Pakora au poulet / Chicken Pakora",
         "description": "Samosas aux légumes avec pois chiches, yogourt, légumes, et épices. / Vegetable samosas with chickpeas, yogurt, vegetables, and spices.",
-        "image_url": "",
+        "image_url": "chicken-pakora.png",
         "price": 10.99,
         "is_new": null
       },
       {
         "title": "Pakora aux légumes / Vegetable Pakora",
         "description": "Légumes enrobés de farine de gram, frits avec fines herbes / Vegetables dipped in gram flour, fried with fine herbs",
-        "image_url": "",
+        "image_url": "vegetable-pakora.png",
         "price": 4.99,
         "is_new": null
       },
       {
         "title": "Pakora au poisson / Fish Pakora",
         "description": "Poisson enrobés de farine de gram, frits avec fines herbes. / Fish dipped in gram flour, fried with fine herbs.",
-        "image_url": "",
+        "image_url": "fish-pakora.png",
         "price": 12.99,
         "is_new": null
       },
       {
         "title": "Pakora au crevettes gréantes / King Prawn Pakora",
         "description": "Crevettes géantes enrobés de farine de gram, frits avec fines herbes. / King prawns dipped in gram flour, fried with fine herbs.",
-        "image_url": "",
+        "image_url": "king-prawn-pakora.png",
         "price": 15.99,
         "is_new": null
       },
@@ -66,7 +66,7 @@
       {
         "title": "Raïta / Raita",
         "description": "Yogourt mélangé avec des légumes et épices. / Yogurt mixed with vegetables and spices.",
-        "image_url": "",
+        "image_url": "raita.png",
         "price": 3.99,
         "is_new": null
       }
@@ -77,21 +77,21 @@
       {
         "title": "Salade du chef / Chef's Salad",
         "description": "Salade jardinière avec tomate, concombre, oignon rouge et vinaigre. / Garden salad with tomatoes, cucumber, red onion, and vinegar.",
-        "image_url": "",
+        "image_url": "chefs-salad.png",
         "price": 5.99,
         "is_new": null
       },
       {
         "title": "Salade aux oignons / Onion Salad",
         "description": "Oignons rouges avec coriandre, poivrons verts, chili, et vinaigre. / Red onions with with coriander, green peppers, chili, and vinegar.",
-        "image_url": "",
+        "image_url": "onion-salad.png",
         "price": 3.99,
         "is_new": null
       },
       {
         "title": "Salade de concombre / Cucumber Salad",
         "description": "Concombre avec coriandre, poivrons verts, chili, et vinaigre. / Cucumber with with coriander green peppers, chili, and vinegar.",
-        "image_url": "",
+        "image_url": "cucumber-salad.png",
         "price": 3.99,
         "is_new": null
       },
@@ -109,49 +109,49 @@
       {
         "title": "Balti au poulet / Chicken Balti",
         "description": "",
-        "image_url": "",
+        "image_url": "chicken-balti.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Balti au Bœuf / Beef Balti",
         "description": "",
-        "image_url": "",
+        "image_url": "beef-balti.png",
         "price": 14.99,
         "is_new": null
       },
       {
         "title": "Balti au l'agneau / Lamb Balti",
         "description": "",
-        "image_url": "",
+        "image_url": "lamb-balti.png",
         "price": 14.99,
         "is_new": null
       },
       {
         "title": "Balti aux crevettes géantes / King Prawn Balti",
         "description": "",
-        "image_url": "",
+        "image_url": "king-prawn-balti.png",
         "price": 21.99,
         "is_new": null
       },
       {
         "title": "Balti Wicked",
         "description": "Tikka au poulet cuit avec jus de citron frais, chili vert, ail, et sauce aux tomates. / Chicken tikka cooked with fresh lemon juice, green chili, garlic, and tomato sauce.",
-        "image_url": "",
+        "image_url": "balti-wicked.png",
         "price": 15.99,
         "is_new": null
       },
       {
         "title": "Balti Shish Kebab",
         "description": "Seekh kebab (bœuf) cuit au four d'argile avec notre sauce spéciale. / Seekh kebab (beef) cooked in the tandoor with our special sauce.",
-        "image_url": "",
+        "image_url": "balti-shish-kebab.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Balti spécial du chef / Chef's Special Balti",
         "description": "Crevettes géantes et tikka au poulet cuit avec jus de citron frais, oignons, et chili vert. / King prawns and chicken tikka cooked with fresh lemon juice, onions, and green chili.",
-        "image_url": "",
+        "image_url": "chefs-special-balti.png",
         "price": 18.99,
         "is_new": null
       }
@@ -162,49 +162,49 @@
       {
         "title": "Poisson lahori (Bassa) / Lahori Fish (Bassa)",
         "description": "Poisson entier désossé, sans peau cuit au four d’argile. / Whole fish, boneless, and skinless cooked in tandoor.",
-        "image_url": "",
+        "image_url": "lahori-fish-bassa.png",
         "price": 14.99,
         "is_new": null
       },
       {
         "title": "Cari au poisson (Bassa) / Fish Curry (Bassa)",
         "description": "Bassa frais cuit avec fines herbes, épices, et feuilles de can. / Fresh bassa cooked with herbs, spices, and curry leaves.",
-        "image_url": "",
+        "image_url": "fish-curry-bassa.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Poisson Jalfrezi / Fish Jalfrazi",
         "description": "",
-        "image_url": "",
+        "image_url": "fish-jalfrazi.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Poisson et riz / Fish and Rice",
         "description": "",
-        "image_url": "",
+        "image_url": "fish-and-rice.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Fish'n-chips / Fish N Chips",
         "description": "",
-        "image_url": "",
+        "image_url": "fish-n-chips.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Poisson chili / Chili Fish",
         "description": "",
-        "image_url": "",
+        "image_url": "chili-fish.png",
         "price": 16.99,
         "is_new": null
       },
       {
         "title": "King crevettes chili / King Prawn Chilli",
         "description": "",
-        "image_url": "",
+        "image_url": "king-prawn-chilli.png",
         "price": 22.99,
         "is_new": null
       }
@@ -215,49 +215,49 @@
       {
         "title": "Riz frit au poulet / Chicken Fried Rice",
         "description": "",
-        "image_url": "",
+        "image_url": "chicken-fried-rice.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Poulet chili / Chicken Chili",
         "description": "",
-        "image_url": "",
+        "image_url": "chicken-chili.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Riz frit au légumes / Vegetable Fried Rice",
         "description": "",
-        "image_url": "",
+        "image_url": "vegetable-fried-rice.png",
         "price": 12.99,
         "is_new": null
       },
       {
         "title": "Riz frit avec crevettes / Shrimp Fried Rice",
         "description": "",
-        "image_url": "",
+        "image_url": "shrimp-fried-rice.png",
         "price": 17.99,
         "is_new": null
       },
       {
         "title": "Riz frit avec poisson / Fish Fried Rice",
         "description": "",
-        "image_url": "",
+        "image_url": "fish-fried-rice.png",
         "price": 14.99,
         "is_new": null
       },
       {
         "title": "Riz frit avec bœuf / Beef Fried Rice",
         "description": "",
-        "image_url": "",
+        "image_url": "beef-fried-rice.png",
         "price": 13.99,
         "is_new": null
       },
       {
         "title": "Riz sauté à l'agneau / Lamb Fried Rice",
         "description": "",
-        "image_url": "",
+        "image_url": "lamb-fried-rice.png",
         "price": 14.99,
         "is_new": null
       }
@@ -307,14 +307,14 @@
       {
         "title": "Sandwich rouleau seekh kebba / Seekh Kebab Roll Sadnwich",
         "description": "",
-        "image_url": "",
+        "image_url": "seekh-kebab-roll-sadnwich.png",
         "price": 7.99,
         "is_new": null
       },
       {
         "title": "Sandwich rouleau au poulet tikka / Chicken Tikka Roll Sandwich",
         "description": "",
-        "image_url": "",
+        "image_url": "chicken-tikka-roll-sandwich.png",
         "price": 7.99,
         "is_new": null
       }
@@ -325,14 +325,14 @@
       {
         "title": "Nihari",
         "description": "Boeuf cuit avec gingembre, garam, masala, yogourt, et beurre. / Beef cooked with ginger, garam masala, yogurt, and butter.",
-        "image_url": "",
+        "image_url": "nihari.png",
         "price": 12.99,
         "is_new": null
       },
       {
         "title": "Haleem",
         "description": "Ragoût de bœuf mijoté à point avec lentilles, épices, et lines herbes. / Slowly simmered beef stew with lentils, herbs, and spices.",
-        "image_url": "",
+        "image_url": "haleem.png",
         "price": 12.99,
         "is_new": null
       }
@@ -343,42 +343,42 @@
       {
         "title": "Poulet Tandoori (Entier) / Chicken Tandoori (Whole)",
         "description": "Poulet mariné au yaourt et aux épices et cuit au four tandoor. / Chicken marinated in yogurt and spices and cooked in a tandoor oven",
-        "image_url": "",
+        "image_url": "chicken-tandoori-whole.png",
         "price": 22.99,
         "is_new": null
       },
       {
         "title": "Poulet Tandoori (Demi) / Chicken Tandoori (Half)",
         "description": "Poulet mariné au yaourt et aux épices et cuit au four tandoor. / Chicken marinated in yogurt and spices and cooked in a tandoor oven",
-        "image_url": "",
+        "image_url": "chicken-tandoori-half.png",
         "price": 12.99,
         "is_new": null
       },
       {
         "title": "Poulet Tandoori (Cuisse) / Chicken Tandoori (Leg)",
         "description": "Poulet mariné au yaourt et aux épices et cuit au four tandoor. / Chicken marinated in yogurt and spices and cooked in a tandoor oven",
-        "image_url": "",
+        "image_url": "chicken-tandoori-leg.png",
         "price": 7.99,
         "is_new": null
       },
       {
         "title": "Poulet Tandoori (Poitrine) / Chicken Tandoori (Breast)",
         "description": "Poulet mariné au yaourt et aux épices et cuit au four tandoor. / Chicken marinated in yogurt and spices and cooked in a tandoor oven",
-        "image_url": "",
+        "image_url": "chicken-tandoori-breast.png",
         "price": 8.99,
         "is_new": null
       },
       {
         "title": "Tikka au poulet / Tandoori Chicken Tikka",
         "description": "Poulet désossé, mariné au yogourt, et épices, cuit au four tandoor. / Boneless chicken marinated in yogurt and spices, cooked in a tandoor oven.",
-        "image_url": "",
+        "image_url": "tandoori-chicken-tikka.png",
         "price": 16.99,
         "is_new": null
       },
       {
         "title": "Tandoori au crevettes géantes / King Prawn Tandoori",
         "description": "Crevettes géantes et seekh kbab cuits au four tandoor. / King prawns marinated in yogurt and spices and cooked in a tandoor oven.",
-        "image_url": "",
+        "image_url": "king-prawn-tandoori.png",
         "price": 25.99,
         "is_new": null
       },
@@ -399,14 +399,14 @@
       {
         "title": "Seekh Kebab (Bœuf) / Seekh Kebab (Beef)",
         "description": "Bœuf assaisonné avec des épices et fines herbes, cuit au four tandoor. / Beef seasoned with herbs and spices, cooked in a tandoor oven.",
-        "image_url": "",
+        "image_url": "seekh-kebab-beef.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Seekh Kebab (Poulet) / Seekh Kebab (Chicken)",
         "description": "Poulet assaisonné avec des épices et fines herbes, cuit au four tandoor. / Chicken seasoned with herbs and spices, cooked in a tandoor oven.",
-        "image_url": "",
+        "image_url": "seekh-kebab-chicken.png",
         "price": 11.99,
         "is_new": null
       }
@@ -444,133 +444,133 @@
       {
         "title": "Combo Poulet au Beurre / Butter Chicken",
         "description": "Une sauce riche à base de tomates et de crème / A rich sauce made with tomatoes and cream",
-        "image_url": "",
+        "image_url": "butter-chicken.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Tikka Masala",
         "description": "Tandoori tikka cuisiné avec une sauce masala maison / Tandoori tikka cooked with home style masala sauce",
-        "image_url": "",
+        "image_url": "tikka-masala.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Karahi",
         "description": "Sauce à base de gingembre, d'ail et de coriandre fraîche / Sauce made with ginger, garlic, and fresh coriander",
-        "image_url": "",
+        "image_url": "karahi.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Jalfrazi",
         "description": "Sauce riche à base de tomates, oignons et poivrons / Rich sauce made with tomatoes, onions and bell peppers",
-        "image_url": "",
+        "image_url": "jalfrazi.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Vindaloo",
         "description": "Un plat exotique de la province de Goa, à base de vinaigre et de piments rouges / An exotic dish from the province of Goa, made with vinegar and red chilies",
-        "image_url": "",
+        "image_url": "vindaloo.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Chilli Masal",
         "description": "À base de piments verts, d'oignons, de poivrons verts et de coriandre fraîche / Made with green chilies, onions, green peppers, and fresh coriander",
-        "image_url": "",
+        "image_url": "chilli-masal.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Madras",
         "description": "Un plat épicé à base de tomates de Chennai en Inde / A spicy tomato-based dish from Chennai India",
-        "image_url": "",
+        "image_url": "madras.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Curry",
         "description": "Sauce à base de tomates et d'oignons / Sauce made with tomatoes and onions",
-        "image_url": "",
+        "image_url": "curry.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Spécial Mangue / Mango Special",
         "description": "Riche sauce à la mangue aux épices et herbes / Rich mango sauce with spices and herbs",
-        "image_url": "",
+        "image_url": "mango-special.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Gingembre / Ginger",
         "description": "Fait avec de l'ail, du yaourt et une généreuse portion de gingembre / Made with garlic, yogurt, and a generous portion of ginger",
-        "image_url": "",
+        "image_url": "ginger.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Saag Gosh",
         "description": "À base d'épinards frais et d'herbes / Made with fresh spinach and herbs",
-        "image_url": "",
+        "image_url": "saag-gosh.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Korma",
         "description": "Sauce douce et crémeuse à base de yaourt et d'herbes / Mild and creamy sauce made with yogurt and herbs",
-        "image_url": "",
+        "image_url": "korma.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Dupiaza",
         "description": "Sauce douce et crémeuse à base de yaourt et d'herbes / Mild and creamy sauce made with yogurt and herbs",
-        "image_url": "",
+        "image_url": "dupiaza.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Rogan Josh",
         "description": "Plat exotique du Cachemire à base de piments et de fleurs séchées / Exotic Kashmir dish made with chilies and dried flowers",
-        "image_url": "",
+        "image_url": "rogan-josh.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Daal Gosh",
         "description": "Fait avec de la sauce et des lentilles / Made with gravy sauce and lentils",
-        "image_url": "",
+        "image_url": "daal-gosh.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Bhuna",
         "description": "Préparé avec des poivrons, des oignons, des champignons et des tomates / Prepared with peppers, onions, mushrooms, and tomatoes",
-        "image_url": "",
+        "image_url": "bhuna.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Bhindi Gosh",
         "description": "Gombo cuit aux herbes et épices / Cooked okra with herbs and spices",
-        "image_url": "",
+        "image_url": "bhindi-gosh.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Kebab Masata",
         "description": "Cuit avec du poulet haché ou du kebab de bœuf haché et des herbes et épices / Cooked with ground chicken or ground beef kebab and herbs and spices",
-        "image_url": "",
+        "image_url": "kebab-masata.png",
         "price": null,
         "is_new": null
       },
       {
         "title": "Achar Gosh",
         "description": "Cuit avec un mélange de cornichons, d'herbes et d'épices / Cooked with mixed pickles, herbs and spices",
-        "image_url": "",
+        "image_url": "achar-gosh.png",
         "price": null,
         "is_new": null
       }
@@ -588,98 +588,98 @@
       {
         "title": "Channa",
         "description": "Pois chiches cuits avec beurre, gingembre, all herbes, et épices. / Chickpeas cooked with butter, ginger, garlic, herbs, and spices.",
-        "image_url": "",
+        "image_url": "channa.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Daal Mash",
         "description": "Lentilles noires cuites avec beurre gingembre, al, herbes, et épices. / Black lentils cooked with butter, ginger, garlic, herbs, and spices.",
-        "image_url": "",
+        "image_url": "daal-mash.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Daal Makhani",
         "description": "Lentilles noires et haricots rouges cuits avec tomates, gingembre, cumin, et oignons. / Black lentils and red kidney beans cooked with tomatoes, ginger, cumin, and onions.",
-        "image_url": "",
+        "image_url": "daal-makhani.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Matar Paneer",
         "description": "Pois et fromage dans une sauce légèrement épicée. / Peas and cheese cooked in a mildly spiced sauce.",
-        "image_url": "",
+        "image_url": "matar-paneer.png",
         "price": 12.99,
         "is_new": null
       },
       {
         "title": "Baingan Bharta",
         "description": "Aubergine cuite avec tomates, oignons, ail, gingembre, et épices. / Eggplant cooked with tomatoes, onions, garlic, ginger, and spices.",
-        "image_url": "",
+        "image_url": "baingan-bharta.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Bhindi",
         "description": "Gombo préparé avec épices et fines herbes. / Okra cooked with herbs and spices.",
-        "image_url": "",
+        "image_url": "bhindi.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Aloo Gobi",
         "description": "Pommes de terre et chou-fleur préparés avec épices et fines herbes. / Potatoes and cauliflower cooked with herbs and spices.",
-        "image_url": "",
+        "image_url": "aloo-gobi.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Aloo Matar",
         "description": "Pommes de terre et pois préparés avec épices et fines herbes. / Potatoes and peas cooked with herbs and spices.",
-        "image_url": "",
+        "image_url": "aloo-matar.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Aloo Palak",
         "description": "Pommes de terre et épinards préparés avec épices et fines herbes. / Potatoes and spinach cooked with herbs and spices.",
-        "image_url": "",
+        "image_url": "aloo-palak.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Jalfrezi végétarien / Vegetarian Jalfrezi",
         "description": "Legumes assortis dans une sauce riche à base de tomates, oignons, et poivrons. / Mixed vegetables in a rich sauce made with tomatoes, onions, and bell peppers.",
-        "image_url": "",
+        "image_url": "vegetarian-jalfrezi.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Dum Aloo",
         "description": "Met exotique de la région de Kashmir à base de pommes de terre, épices, feuilles de laurier, et cannelle. / Exotic Kashmir dish made with potatoes, spices, bay leaves, and cinnamon.",
-        "image_url": "",
+        "image_url": "dum-aloo.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Nauratan Korma",
         "description": "Légumes frais du jardin cuits dans une sauce à base de yogourt. / Garden fresh vegetables cooked in a yogurt sauce.",
-        "image_url": "",
+        "image_url": "nauratan-korma.png",
         "price": 11.99,
         "is_new": null
       },
       {
         "title": "Shahi Paneer",
         "description": "Fromage blanc avec sauce crémeuse. / Cottage cheese in a light creamy sauce.",
-        "image_url": "",
+        "image_url": "shahi-paneer.png",
         "price": 12.99,
         "is_new": null
       },
       {
         "title": "Palak Paneer",
         "description": "Épinards et fromage préparés avec beurre, gingembre, ail, épices, et fines herbes. / Spinach and cheese cooked in butter with ginger, garlic, herbs, and spices.",
-        "image_url": "",
+        "image_url": "palak-paneer.png",
         "price": 12.99,
         "is_new": null
       }
