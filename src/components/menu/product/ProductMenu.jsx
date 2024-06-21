@@ -1,13 +1,13 @@
 // ProductMenu.jsx
 import React from 'react';
 import './ProductMenu.css';
-import {languageTranslate} from "../../../util/utils";
+import {createImageUrl, languageTranslate} from "../../../util/utils";
 
 const ProductMenu = ({productData}) => {
     return (
         <div className="product-menu-container">
             {productData?.is_new && <div className="product-new-banner">New</div>}
-            {productData?.image_url && <img src={productData.image_url} alt={productData.title}/>}
+            {productData?.image_url && (<img src={createImageUrl(productData.image_url)} alt={productData.title}/>)}
 
             <div className={"product-details-wrapper"}>
                 <p style={{flex: "1"}}>{languageTranslate(productData.title)}</p>

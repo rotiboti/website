@@ -30,6 +30,9 @@ export function languageTranslate(inputString) {
     }
 }
 
+export function createImageUrl (imageName) {
+    return `${baseUrl}menu/${imageName}`;
+}
 
 // utils.js
 

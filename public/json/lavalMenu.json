@@ -3,56 +3,56 @@
     "products": [
       {
         "title": "Soupe aux lentilles / Daal Soup",
-        "image_url": "",
+        "image_url": "daal-soup.png",
         "price": 4.99,
         "is_new": null
       },
       {
         "title": "Samosas aux Léqumes / Vegetable samosas",
         "description": "2 chaussbns frits avec pommes de terres, pois et fines herbes. / 2 fried dumpling stuffed with potatoes, peas & fine herbs",
-        "image_url": "",
+        "image_url": "vegetable-samosas.png",
         "price": 3.99,
         "is_new": null
       },
       {
         "title": "Samosa aux légumes chaat / Channa Samosa Chaat",
         "description": "Samosas aux légumes avec pois chiches, yogourt, légumes, et épices. / Vegetable samosas with chickpeas, yogurt, vegetables, and spices",
-        "image_url": "",
+        "image_url": "channa-samosa-chaat.png",
         "price": 6.99,
         "is_new": null
       },
       {
         "title": "Bhaji à l'oignon / Onion Bhaji",
         "description": "Oignons enrobés de farine de gram, frits avec fines herbes. / Onions dipped in gram flour, fried with fine herbs.",
-        "image_url": "",
+        "image_url": "onion-bhaji.png",
         "price": 4.99,
         "is_new": null
       },
       {
         "title": "Pakora au poulet / Chicken Pakora",
         "description": "Samosas aux légumes avec pois chiches, yogourt, légumes, et épices. / Vegetable samosas with chickpeas, yogurt, vegetables, and spices.",
-        "image_url": "",
+        "image_url": "chicken-pakora.png",
         "price": 10.99,
         "is_new": null
       },
       {
         "title": "Pakora aux légumes / Vegetable Pakora",
         "description": "Légumes enrobés de farine de gram, frits avec fines herbes / Vegetables dipped in gram flour, fried with fine herbs",
-        "image_url": "",
+        "image_url": "vegetable-pakora.png",
         "price": 4.99,
         "is_new": null
       },
       {
         "title": "Pakora au poisson / Fish Pakora",
         "description": "Poisson enrobés de farine de gram, frits avec fines herbes. / Fish dipped in gram flour, fried with fine herbs.",
-        "image_url": "",
+        "image_url": "fish-pakora.png",
         "price": 12.99,
         "is_new": null
       },
       {
         "title": "Pakora au crevettes gréantes / King Prawn Pakora",
         "description": "Crevettes géantes enrobés de farine de gram, frits avec fines herbes. / King prawns dipped in gram flour, fried with fine herbs.",
-        "image_url": "",
+        "image_url": "king-prawn-pakora.png",
         "price": 15.99,
         "is_new": null
       },
@@ -66,7 +66,7 @@
       {
         "title": "Raïta / Raita",
         "description": "Yogourt mélangé avec des légumes et épices. / Yogurt mixed with vegetables and spices.",
-        "image_url": "",
+        "image_url": "raita.png",
         "price": 3.99,
         "is_new": null
       }
@@ -77,21 +77,21 @@
       {
         "title": "Salade du chef / Chef's Salad",
         "description": "Salade jardinière avec tomate, concombre, oignon rouge et vinaigre. / Garden salad with tomatoes, cucumber, red onion, and vinegar.",
-        "image_url": "",
+        "image_url": "chefs-salad.png",
         "price": 5.99,
         "is_new": null
       },
       {
         "title": "Salade aux oignons / Onion Salad",
         "description": "Oignons rouges avec coriandre, poivrons verts, chili, et vinaigre. / Red onions with with coriander, green peppers, chili, and vinegar.",
-        "image_url": "",
+        "image_url": "onion-salad.png",
         "price": 3.99,
         "is_new": null
       },
       {
         "title": "Salade de concombre / Cucumber Salad",
         "description": "Concombre avec coriandre, poivrons verts, chili, et vinaigre. / Cucumber with with coriander green peppers, chili, and vinegar.",
-        "image_url": "",
+        "image_url": "cucumber-salad.png",
         "price": 3.99,
         "is_new": null
       },

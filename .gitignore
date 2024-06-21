@@ -131,3 +131,4 @@ dist
 .idea
 
 build
+/public/menu/orignal/

@@ -2,11 +2,11 @@
 
 import React from 'react';
 import './AboutUs.css';
-import getImageUrl, { languageTranslate } from "../../util/utils";
+import { languageTranslate } from "../../util/utils";
 
 const AboutUs = () => {
     const headingAbout = "À PROPOS DE NOUS / ABOUT US";
-    const tariqImageUrl = getImageUrl('tariq');
+    // const tariqImageUrl = getImageUrl('tariq');
 
     return (
         <div className="about-us-main">
@@ -15,8 +15,8 @@ const AboutUs = () => {
                 <div className="about-us-details">
                     <div className="about-us-intro">
                         <section id="about">
-                            <p><strong>Roti
-                                Boti</strong>, {languageTranslate("un restaurant gastronomique proposant une cuisine indienne et pakistanaise authentique, donnant vie aux goûts vibrants de l'Inde et du Pakistan dans notre communauté. / a fine dining restaurant that features authentic Indian and Pakistani cuisine, bringing the vibrant tastes of India and Pakistan to life in our community.")}
+                            <p>
+                                <strong>Roti Boti</strong>, {languageTranslate("un restaurant gastronomique proposant une cuisine indienne et pakistanaise authentique, donnant vie aux goûts vibrants de l'Inde et du Pakistan dans notre communauté. / a fine dining restaurant that features authentic Indian and Pakistani cuisine, bringing the vibrant tastes of India and Pakistan to life in our community.")}
                             </p>
 
                             <h2>{languageTranslate("Notre Histoire / Our Story")}</h2>
@@ -39,9 +39,9 @@ const AboutUs = () => {
 
                         </section>
                     </div>
-                    <div style={{marginLeft: "10px"}}>
-                        <img className={"tariq-about-us"} src={tariqImageUrl} alt="Chef Tariq preparing a dish"/>
-                    </div>
+                    {/*<div style={{marginLeft: "10px"}}>*/}
+                    {/*    <img className={"tariq-about-us"} src={tariqImageUrl} alt="Chef Tariq preparing a dish"/>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </div>
