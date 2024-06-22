@@ -831,14 +831,14 @@
       {
         "title": "Thali végétarien / Veggie Thali",
         "description": "",
-        "image_url": "",
+        "image_url": "veggie-thali.png",
         "price": 14.99,
         "is_new": null
       },
       {
         "title": "Thali non-végétarien / Non Veggie Thali",
         "description": "",
-        "image_url": "",
+        "image_url": "non-veggie-thali.png",
         "price": 15.99,
         "is_new": null
       }
@@ -849,7 +849,7 @@
       {
         "title": "Gulab Jamun",
         "description": "Boulettes de lait trempés dans un syrop à l'eau de rose avec arachides. / Milk balls soaked in rosewater syrup with sliced peanuts.",
-        "image_url": "",
+        "image_url": "gulam-jamun.png",
         "price": 3.99,
         "is_new": null
       },
