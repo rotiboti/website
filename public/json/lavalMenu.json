@@ -385,14 +385,14 @@
       {
         "title": "Tandoori assorti (pour 2) / Mixed Tandoori (for 2)",
         "description": "Poulet, crevettes géantes, et seekh kebab cuits au four. / Chicken, king prawn, and seekh kebab cooked in a tandoor oven.",
-        "image_url": "",
+        "image_url": "mixed-tandoori.png",
         "price": 29.99,
         "is_new": null
       },
       {
         "title": "Plateau tandoori mixte / Mixed Tandoori Platter",
         "description": "Bœuf, poulet, poisson avec riz, salade, et pain naan. / Beef, chicken, fish with rice, salad, and naan bread.",
-        "image_url": "",
+        "image_url": "mixed-tandoori-platter.png",
         "price": 29.99,
         "is_new": null
       },
@@ -581,7 +581,7 @@
       {
         "title": "Mélanger les légumes / Mix Vegetable",
         "description": "Légumes variés cuisinés aux épices orientales. / Mixed vegetables cooked with Oriental spices.",
-        "image_url": "",
+        "image_url": "mix-vegetable.png",
         "price": 11.99,
         "is_new": null
       },

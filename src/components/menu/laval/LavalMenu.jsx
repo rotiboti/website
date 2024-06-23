@@ -67,7 +67,7 @@ const LavalMenu = () => {
             <div className="laval-category-sections">
                 <h1 className="home-menu-heading" > {languageTranslate(headingMenu)} </h1>
                 {menuData && Object.keys(menuData).map((key, index) => (
-                    <CategoryMenu key={index} title={key} categoryData={menuData[key]}/>
+                    <CategoryMenu key={index} title={key} isOpen={index===0} categoryData={menuData[key]}/>
                 ))}
             </div>
             {showScrollTopBack && (

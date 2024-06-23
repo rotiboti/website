@@ -22,10 +22,33 @@
     }
 }
 
+.category-menu-click{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    & h2 {
+        flex: 1;
+        margin-left: 10px;
+    }
+
+    & svg {
+        width: 35px;
+        height: 35px;
+        border-radius: 22px;
+        padding: 4px;
+        background-color: rgba(255, 228, 196, 0.6);
+    }
+    & :hover{
+        /*box-shadow: 0 10px 15px -5px bisque;*/
+    }
+}
 
 .category-menu-heading{
     font-size: 2em;
     padding-bottom: 10px;
+    color: #9a7644;
     border-bottom: 2px solid var(--rotiboti-primary-color);
 }
 
@@ -33,4 +56,9 @@
     margin-left: 10px;
     font-weight: bold;
     color: #9a7644;
+}
+
+.rotate180 {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
 }

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './ContactUs.css';
-import getImageUrl, {languageTranslate} from "../../util/utils";
+import {languageTranslate} from "../../util/utils";
 
 const ContactUs = () => {
     const headingContact = "CONTACTEZ-NOUS / CONTACT US";
@@ -20,6 +20,7 @@ const ContactUs = () => {
                 </div>
                 <div className="map-container">
                     <iframe
+                        title="Map"
                         src="https://www.google.com/maps/embed?pb=%211m18%211m12%211m3%211d11175.827332850255%212d-73.75856609999998%213d45.55119390000001%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%213m3%211m2%211s0x4cc923a36d603633%3A0xb5fd9f338f7187c6%212sRoti+Boti+%28Laval%29%215e0%213m2%211sen%212sca%214v1683845704674%215m2%211sen%212sca&z=16"
                         width="100%"
                         height="350"
