@@ -188,7 +188,7 @@
         "is_new": null
       },
       {
-        "title": "Fish'n-chips / Fish N Chips",
+        "title": "Fish' et chips / Fish and Chips",
         "description": "",
         "image_url": "fish-n-chips.png",
         "price": 13.99,
@@ -415,6 +415,13 @@
         "description": "Poulet assaisonné avec des épices et fines herbes, cuit au four tandoor. / Chicken seasoned with herbs and spices, cooked in a tandoor oven.",
         "image_url": "seekh-kebab-chicken.png",
         "price": 11.99,
+        "is_new": null
+      },
+      {
+        "title": "Plat de poisson / Fish Platter",
+        "description": "",
+        "image_url": "fish-platter.png",
+        "price": 29.99,
         "is_new": null
       }
     ]
