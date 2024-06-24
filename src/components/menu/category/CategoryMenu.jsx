@@ -9,7 +9,6 @@ const CategoryMenu = ({title, isOpen = false, categoryData}) => {
     const [open, setOpen] = useState(isOpen);
 
     const isOpenToggleFunction = () => {
-        console.assert(!open);
         setOpen(!open);
     };
 

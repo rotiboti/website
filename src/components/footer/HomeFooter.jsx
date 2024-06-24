@@ -1,12 +1,11 @@
 // HomeFooter.jsx
 
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import './HomeFooter.css';
 import {getSelectedLanguage, setSelectedLanguage} from "../../util/utils";
 
 const HomeFooter = () => {
     const [language, setLanguage] = useState(getSelectedLanguage());
-    // useEffect(() => {setLanguage(getSelectedLanguage());}, []);
 
     const handleLanguageChange = (newLanguage) => {
         setSelectedLanguage(newLanguage);

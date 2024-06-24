@@ -59,7 +59,7 @@
       {
         "title": "Papadum et chutney à la mangue / Papadum and Mango Chutney",
         "description": "Mince pain croustillant à base de farine de riz, servi avec sauce aux mangues. / Thin crispy bread made with rice flour, served with mango sauce.",
-        "image_url": "",
+        "image_url": "papadum-and-mango-chutney.png",
         "price": 2.99,
         "is_new": null
       },
@@ -98,7 +98,7 @@
       {
         "title": "Achar (assortiment de cornichons) / Achar (Mixed Pickles)",
         "description": "Légumes marinés dans une saumure à l'huile et aux épices. / Vegetables pickled in oil and spices.",
-        "image_url": "",
+        "image_url": "achar-mixed-pickles.png",
         "price": 1.99,
         "is_new": null
       }
@@ -268,7 +268,7 @@
       {
         "title": "Végétarien assorti / Assorted Vegetarian",
         "description": "Pakora aux légumes, pakora paneer, et samosa aux légumes. / Vegetable pakora, paneer pakora, and vegetable samosa.",
-        "image_url": "",
+        "image_url": "assorted-vegetarian.png",
         "price": 11.99,
         "is_new": null
       },
@@ -316,6 +316,13 @@
         "description": "",
         "image_url": "chicken-tikka-roll-sandwich.png",
         "price": 7.99,
+        "is_new": null
+      },
+      {
+        "title": "Trio de sandwichs / Sandwich Trio",
+        "description": "Viande au choix avec frites et boisson. / Meat of your choice with fries and beverage.",
+        "image_url": "sandwich-trio.png",
+        "price": 12.99,
         "is_new": null
       }
     ]
