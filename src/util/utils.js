@@ -40,22 +40,20 @@ export function createImageUrl (imageName) {
 function getBaseUrl() {
     if (window.location.hostname === 'localhost') {
         return 'http://localhost:3000/website/';
-    } else if (window.location.hostname === 'rotiboti.github.io') {
-        return 'https://rotiboti.github.io/website/';
     } else {
-        return 'https://rotiboti.github.io/website/';
+        return `https://${window.location.hostname}/`;
     }
 }
 
 const baseUrl = getBaseUrl();
 
 const imageUrls = {
-    halal: `${baseUrl}halal.png`,
-    logo512: `${baseUrl}logo512.png`,
-    skip: `${baseUrl}skip.png`,
-    uber: `${baseUrl}uber.png`,
-    doordash: `${baseUrl}doordash.png`,
-    tariq: `${baseUrl}tariq.png`,
+    halal: `${baseUrl}images/halal.png`,
+    logo512: `${baseUrl}images/logo512.png`,
+    skip: `${baseUrl}images/skip.png`,
+    uber: `${baseUrl}images/uber.png`,
+    doordash: `${baseUrl}images/doordash.png`,
+    tariq: `${baseUrl}images/tariq.png`,
     // Add more image URLs here as needed
 };
 
