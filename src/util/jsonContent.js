@@ -1,7 +1,7 @@
 import {getBaseUrl} from "./utils";
 
 export async function readJsonContent(jsonName) {
-    const url = `${getBaseUrl()}json/${jsonName}.json`
+    const url = `${getBaseUrl()}json/${jsonName}.json`;
     try {
         const response = await fetch(url);
         return await response.json();
