@@ -39,7 +39,7 @@ export function createImageUrl (imageName) {
 // Function to get the base URL based on the current hostname
 export function getBaseUrl() {
     if (window.location.hostname === 'localhost') {
-        return 'http://localhost:3000/website/';
+        return 'http://localhost:3000/';
     } else {
         return `https://${window.location.hostname}/`;
     }
