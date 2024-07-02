@@ -37,6 +37,20 @@
         "is_new": null
       },
       {
+        "title": "Chou-Fleur65 / Gobi65",
+        "description": "Chou-fleur 65 mariné au yogurt et riches épices. / Cauliflower marinated in yogurt and spices.",
+        "image_url": "gobi65.png",
+        "price": 10.99,
+        "is_new": null
+      },
+      {
+        "title": "Fromage Désossé / Paneer Tikka",
+        "description": "Fromage désossé, mariné au yogourt, et épices, cuit au four tandoor. / Paneer(cheese) marinated in yogurt and spices cooked in a tandoor oven.",
+        "image_url": "paneer-tikka.png",
+        "price": 10.99,
+        "is_new": null
+      },
+      {
         "title": "Pakora au poisson / Fish Pakora",
         "description": "Poisson enrobés de farine de gram, frits avec fines herbes. / Fish dipped in gram flour, fried with fine herbs.",
         "image_url": "fish-pakora.png",
@@ -342,6 +356,13 @@
         "image_url": "haleem.png",
         "price": 12.99,
         "is_new": null
+      },
+      {
+        "title": "Chana Bhatura",
+        "description": "Pois chiches avec du pain levé frit à base de farine. / Channe with deep fried leavened bread made with flour.",
+        "image_url": "",
+        "price": 15.99,
+        "is_new": null
       }
     ]
   },
@@ -415,6 +436,13 @@
         "description": "Poulet assaisonné avec des épices et fines herbes, cuit au four tandoor. / Chicken seasoned with herbs and spices, cooked in a tandoor oven.",
         "image_url": "seekh-kebab-chicken.png",
         "price": 11.99,
+        "is_new": null
+      },
+      {
+        "title": "Malai Tikka (Poulet) / Malai Tikka (Chicken)",
+        "description": "Poulet désossé, mariné au yogourt et cream, et épices, cuit au four tandoor. / Boneless chicken marinated in yogurt and cream cooked in a tandoor oven.",
+        "image_url": "malai-tikka-chicken.png",
+        "price": 16.99,
         "is_new": null
       },
       {
