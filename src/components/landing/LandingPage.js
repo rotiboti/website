@@ -16,8 +16,8 @@ const LandingPage = () => {
             <HomeNavbar/>
             <HomeMenu/>
             <OrderPartner/>
-            <ContactUs/>
             <AboutUs/>
+            <ContactUs/>
             <HomeFooter/>
         </div>
     )
