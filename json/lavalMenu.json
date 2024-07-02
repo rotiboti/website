@@ -2,12 +2,6 @@
   "HORS-D'OEUVRES / APPETIZERS": {
     "products": [
       {
-        "title": "Soupe aux lentilles / Daal Soup",
-        "image_url": "daal-soup.png",
-        "price": 4.99,
-        "is_new": null
-      },
-      {
         "title": "Samosas aux Léqumes / Vegetable samosas",
         "description": "2 chaussbns frits avec pommes de terres, pois et fines herbes. / 2 fried dumpling stuffed with potatoes, peas & fine herbs",
         "image_url": "vegetable-samosas.png",
@@ -61,6 +55,12 @@
         "description": "Mince pain croustillant à base de farine de riz, servi avec sauce aux mangues. / Thin crispy bread made with rice flour, served with mango sauce.",
         "image_url": "papadum-and-mango-chutney.png",
         "price": 2.99,
+        "is_new": null
+      },
+      {
+        "title": "Soupe aux lentilles / Daal Soup",
+        "image_url": "daal-soup.png",
+        "price": 4.99,
         "is_new": null
       },
       {
