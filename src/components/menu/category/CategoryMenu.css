@@ -9,7 +9,7 @@
     grid-template-columns: repeat(auto-fill, minmax(var(--notify-list-size), 1fr));
 }
 
-@media (max-width: 600px) {
+@media (max-width: 499px) {
     .category-menu-grid {
         --notify-list-size: calc(0.5 * var(--rotiboti-min-width));
         grid-template-columns: repeat(auto-fill, minmax(var(--notify-list-size), 1fr));

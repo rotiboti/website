@@ -34,7 +34,7 @@ const CategoryMenu = ({title, isOpen = false, categoryData}) => {
                         (
                             <>
                                 <h3 className="menu-details-headings">{languageTranslate(categoryData?.details?.description)}</h3>
-                                <div className="category-details-grid">
+                                <div className="category-details-grid"> 
                                     {categoryData?.details?.choices.map((product, index) => (
                                         <ProductMenu key={index} productData={product}/>
                                     ))}

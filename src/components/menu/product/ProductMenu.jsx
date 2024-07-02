@@ -13,7 +13,7 @@ const ProductMenu = ({productData}) => {
             <div className={"product-details-container"}>
                 <div className={"product-details-wrapper"}>
                     <p style={{flex: "1"}}>{languageTranslate(productData.title)}</p>
-                    {productData?.price && <p style={{color: "#909090"}}>${productData?.price}</p>}
+                    {productData?.price && <p className={"product-price-container"}>${productData?.price}</p>}
                 </div>
 
                 <div className={"product-contents"}>
