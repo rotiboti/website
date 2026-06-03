@@ -27,7 +27,7 @@ const HomeFooter = () => {
                         onClick={() => handleLanguageChange('fr')}
                     >offert en Français</button>
                 </div>
-                <p>Copyright © 2024</p>
+                <p>Copyright © {new Date().getFullYear()}</p>
             </div>
         </div>
     );

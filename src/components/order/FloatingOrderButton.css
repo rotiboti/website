@@ -1,0 +1,159 @@
+.floating-order-btn {
+    --order-btn-bg: #1a1a1a;
+    --order-btn-accent: var(--rotiboti-primary-color, burlywood);
+    --order-btn-text: #f5e6c8;
+    --order-btn-shadow: rgba(222, 184, 135, 0.45);
+
+    position: fixed;
+    right: max(20px, env(safe-area-inset-right));
+    bottom: max(24px, env(safe-area-inset-bottom));
+    z-index: 1000;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: var(--order-btn-text);
+    cursor: pointer;
+
+    animation: floating-order-bob 3.2s ease-in-out infinite;
+    transition:
+        opacity 0.35s ease,
+        visibility 0.35s ease,
+        transform 0.35s ease,
+        box-shadow 0.25s ease;
+}
+
+.floating-order-btn--hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(24px);
+    animation-play-state: paused;
+}
+
+.floating-order-btn__ring {
+    position: absolute;
+    inset: -4px;
+    border-radius: 999px;
+    border: 2px solid var(--order-btn-accent);
+    opacity: 0;
+    animation: floating-order-pulse 2.4s ease-out infinite;
+    pointer-events: none;
+}
+
+.floating-order-btn__inner {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 14px 22px;
+    border-radius: 999px;
+
+    background: linear-gradient(
+        135deg,
+        var(--order-btn-bg) 0%,
+        #2a2218 55%,
+        #3d2f1a 100%
+    );
+    border: 2px solid var(--order-btn-accent);
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.35),
+        0 0 18px var(--order-btn-shadow);
+}
+
+.floating-order-btn__icon {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    color: var(--order-btn-accent);
+}
+
+.floating-order-btn__text {
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+.floating-order-btn:hover {
+    transform: translateY(-3px) scale(1.04);
+}
+
+.floating-order-btn:hover .floating-order-btn__inner {
+    box-shadow:
+        0 12px 32px rgba(0, 0, 0, 0.4),
+        0 0 28px var(--order-btn-shadow);
+}
+
+.floating-order-btn:active {
+    transform: translateY(-1px) scale(0.98);
+}
+
+.floating-order-btn:focus-visible {
+    outline: 3px solid var(--order-btn-accent);
+    outline-offset: 4px;
+}
+
+@keyframes floating-order-bob {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-7px);
+    }
+}
+
+@keyframes floating-order-pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.55;
+    }
+    70%,
+    100% {
+        transform: scale(1.35);
+        opacity: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .floating-order-btn {
+        right: max(14px, env(safe-area-inset-right));
+        bottom: max(18px, env(safe-area-inset-bottom));
+    }
+
+    .floating-order-btn__inner {
+        padding: 12px 16px;
+        gap: 8px;
+    }
+
+    .floating-order-btn__icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .floating-order-btn__text {
+        font-size: 0.78rem;
+        letter-spacing: 0.03em;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .floating-order-btn,
+    .floating-order-btn__ring {
+        animation: none;
+    }
+
+    .floating-order-btn:hover {
+        transform: none;
+    }
+
+    .floating-order-btn--hidden {
+        transform: none;
+    }
+}

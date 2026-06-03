@@ -11,7 +11,6 @@ const lavalMenuJson = await readJsonContent("lavalMenu");
 const LavalMenu = () => {
     const [menuData, setMenuData] = useState({});
     const [selectedIndex, setSelectedIndex] = useState(0);
-    const [showScrollTopBack, setShowScrollTopBack] = useState(false);
     const headingMenu = "MEILLEURE CUISINE INDIENNE ET PAKISTANIE / BEST INDIAN & PAKISTANI CUISINE";
 
 
@@ -29,11 +28,6 @@ const LavalMenu = () => {
                 if (element && window.scrollY >= element.offsetTop) {
                     setSelectedIndex(i);
                 }
-            }
-            if (window.scrollY > 200) {
-                setShowScrollTopBack(true);
-            } else {
-                setShowScrollTopBack(false);
             }
         };
 
@@ -53,10 +47,6 @@ const LavalMenu = () => {
         }
     };
 
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
-
     return (
         <div className="laval-menu-container">
             <Sidebar
@@ -70,11 +60,6 @@ const LavalMenu = () => {
                     <CategoryMenu key={index} title={key} isOpen={index===0 || window.innerWidth > 600 || index===(Object.keys(menuData)?.length-1) } categoryData={menuData[key]}/>
                 ))}
             </div>
-            {showScrollTopBack && (
-                <div className="scroll-to-top" onClick={scrollToTop}>
-                    Top 👆
-                </div>
-            )}
         </div>
     );
 }
