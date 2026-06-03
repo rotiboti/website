@@ -16,7 +16,19 @@ const HomeFooter = () => {
     return (
         <div className="home-footer-container">
             <div className="laval-footer-wrapper">
-                <h2>HALAL DESI RESTAURANT - ROTI BOTI</h2>
+                <div className="laval-footer-brand">
+                    <h2>HALAL DESI RESTAURANT - ROTI BOTI</h2>
+                    <p className="laval-footer-credit">
+                        Design by{' '}
+                        <a
+                            href="https://www.linkedin.com/in/ranahtsham/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            @ranahtsham
+                        </a>
+                    </p>
+                </div>
                 <div className="laval-footer-language">
                     <button
                         className={language === 'en' ? 'selected' : ''}
