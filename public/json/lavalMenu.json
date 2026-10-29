@@ -44,13 +44,6 @@
         "is_new": null
       },
       {
-        "title": "Fromage Désossé / Paneer Tikka",
-        "description": "Fromage désossé, mariné au yogourt, et épices, cuit au four tandoor. / Paneer(cheese) marinated in yogurt and spices cooked in a tandoor oven.",
-        "image_url": "paneer-tikka.png",
-        "price": 10.99,
-        "is_new": null
-      },
-      {
         "title": "Pakora au poisson / Fish Pakora",
         "description": "Poisson enrobés de farine de gram, frits avec fines herbes. / Fish dipped in gram flour, fried with fine herbs.",
         "image_url": "fish-pakora.png",
