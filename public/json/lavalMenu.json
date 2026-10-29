@@ -412,16 +412,16 @@
       },
       {
         "title": "Tandoori assorti (pour 2) / Mixed Tandoori (for 2)",
-        "description": "Poulet, crevettes géantes, et seekh kebab cuits au four. / Chicken, king prawn, and seekh kebab cooked in a tandoor oven.",
+        "description": "Kabab de poulet, kabab de bœuf, tikka au poulet et crevettes. / Chicken kabab, beef kabab, chicken tikka, and shrimp.",
         "image_url": "mixed-tandoori.png",
         "price": 29.99,
         "is_new": null
       },
       {
-        "title": "Plateau tandoori mixte / Mixed Tandoori Platter",
-        "description": "Bœuf, poulet, poisson avec riz, salade, et pain naan. / Beef, chicken, fish with rice, salad, and naan bread.",
+        "title": "Mixte jumbo (pour 4) / Jumbo Mixed (for 4)",
+        "description": "Kabab de poulet, kabab de bœuf, tikka au poulet, crevettes et poisson. / Chicken kabab, beef kabab, chicken tikka, shrimp, and fish.",
         "image_url": "mixed-tandoori-platter.png",
-        "price": 29.99,
+        "price": 44.99,
         "is_new": null
       },
       {
